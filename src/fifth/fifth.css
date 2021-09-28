@@ -1,0 +1,54 @@
+.home-4 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    position: relative;
+}
+.home-4 .home-4-info.en {
+    color: #b5b4b2;
+    font-size: .22rem;
+}
+.home-4 .home-4-info {
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    white-space: nowrap;
+    text-align: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.text-red {
+    font-size: .22rem;
+    color: #a83d32;
+}
+@media only screen and (max-width: 900px) {
+    .home-4 {
+        height: 10rem;
+        background-position: top;
+    }
+    .home-4 .home-4-info.en {
+        width: 80%;
+        font-size: .12rem;
+        color: #7f7d7c;
+        font-family: Poppins;
+    }
+    .home-4 .home-4-info {
+        top: 6.8rem;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .text-title-spacing {
+        margin-bottom: .3rem;
+    }
+    .text-red {
+        font-size: .12rem;
+        letter-spacing: .0072rem;
+    }
+}

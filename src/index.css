@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+html {
+  font-size: 469%;
+  background-color: black;
+  color: white;
+}
+:root {
+  --max-width: 1260px;
+  --main-margin-box: 6.25vw;
+  --main-padding: 10.9375vw;
+  --main-margin: var(--main-margin-box);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'EB Garamond';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 625%;
+  }
 }
