@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mictlanLandingPage/static/css/main.721d6a7c.chunk.css",
-    "main.js": "/mictlanLandingPage/static/js/main.0d8ec657.chunk.js",
-    "main.js.map": "/mictlanLandingPage/static/js/main.0d8ec657.chunk.js.map",
+    "main.css": "/mictlanLandingPage/static/css/main.9dbbbe40.chunk.css",
+    "main.js": "/mictlanLandingPage/static/js/main.44583a03.chunk.js",
+    "main.js.map": "/mictlanLandingPage/static/js/main.44583a03.chunk.js.map",
     "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.3988297a.js",
     "runtime-main.js.map": "/mictlanLandingPage/static/js/runtime-main.3988297a.js.map",
     "static/js/2.1bc3af44.chunk.js": "/mictlanLandingPage/static/js/2.1bc3af44.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.68f3dbfa.chunk.js": "/mictlanLandingPage/static/js/3.68f3dbfa.chunk.js",
     "static/js/3.68f3dbfa.chunk.js.map": "/mictlanLandingPage/static/js/3.68f3dbfa.chunk.js.map",
     "index.html": "/mictlanLandingPage/index.html",
-    "static/css/main.721d6a7c.chunk.css.map": "/mictlanLandingPage/static/css/main.721d6a7c.chunk.css.map",
+    "static/css/main.9dbbbe40.chunk.css.map": "/mictlanLandingPage/static/css/main.9dbbbe40.chunk.css.map",
     "static/js/2.1bc3af44.chunk.js.LICENSE.txt": "/mictlanLandingPage/static/js/2.1bc3af44.chunk.js.LICENSE.txt",
     "static/media/bg-five.e12f2feb.png": "/mictlanLandingPage/static/media/bg-five.e12f2feb.png",
     "static/media/bg-four-two.22626ab1.png": "/mictlanLandingPage/static/media/bg-four-two.22626ab1.png",
     "static/media/bg-four.f53fecd6.png": "/mictlanLandingPage/static/media/bg-four.f53fecd6.png",
     "static/media/bg-three.79d6fab8.png": "/mictlanLandingPage/static/media/bg-three.79d6fab8.png",
     "static/media/bg-two.58d14ccf.png": "/mictlanLandingPage/static/media/bg-two.58d14ccf.png",
-    "static/media/bg.fdd3c717.mp4": "/mictlanLandingPage/static/media/bg.fdd3c717.mp4",
+    "static/media/bg.31569901.mp4": "/mictlanLandingPage/static/media/bg.31569901.mp4",
     "static/media/bgthreetwo.ee557722.png": "/mictlanLandingPage/static/media/bgthreetwo.ee557722.png",
     "static/media/gameplay.4524d2d8.mp4": "/mictlanLandingPage/static/media/gameplay.4524d2d8.mp4",
     "static/media/mbBg-five.0e237340.png": "/mictlanLandingPage/static/media/mbBg-five.0e237340.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3988297a.js",
     "static/js/2.1bc3af44.chunk.js",
-    "static/css/main.721d6a7c.chunk.css",
-    "static/js/main.0d8ec657.chunk.js"
+    "static/css/main.9dbbbe40.chunk.css",
+    "static/js/main.44583a03.chunk.js"
   ]
 }
