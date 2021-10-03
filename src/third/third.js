@@ -6,6 +6,7 @@ import mbBg from "../assets/mbBg-three.png";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
+
 function Third() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
@@ -37,14 +38,23 @@ function Third() {
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-2" style={{ backgroundImage: `url(${bgtwo})` }}>
-            <div
+            <motion.div
+              animate={inView ? "visible" : "hidden"}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              variants={{
+                visible: { opacity: 1, y: "-48%" },
+                hidden: {
+                  opacity: 0,
+                  y: "-30%",
+                },
+              }}
               class="home-2-img slides-animation-short"
               style={{ backgroundImage: `url(${bg})` }}
-            ></div>
+            ></motion.div>
             <motion.div
               animate={inView ? "visible" : "hidden"}
               variants={{
-                visible: { opacity: 1, y: "-50%" },
+                visible: { opacity: 1, y: "-50%", x: "-8%" },
                 hidden: {
                   opacity: 0,
                   y: "-100%",
@@ -55,26 +65,27 @@ function Third() {
             >
               <div class="introduction-info-en-title">
                 {" "}
-                What matters most is to embark on a{" "}
+                Face the dangers between the heavens{" "}
               </div>
               <div class="text-title-spacing">
-                <span class="text-red-title">NEW JOURNEY</span>.{" "}
+                <span className="introduction-info-en-title">and the </span>
+                <span class="text-red-title">UNDERWORLD</span>.
+              </div>
+              <div>
+                The collapse of the civilization will lead your soul to the
+                three stages of the Mexica reality: the heavens,{" "}
               </div>
               <div>
                 {" "}
-                As content creators, we've been struggling in this industry,{" "}
+                the earth, and the Mictlan, better known as the underworld,
+                where you will battle evil spirits, demonic{" "}
               </div>
-              <div class="text-leading">
-                {" "}
-                since it is hard to hold back from expressing our true self.{" "}
-              </div>
-              <div> Why so many player characters in </div>
               <div>
-                <span class="text-red-exclusive">Legends of 100 Heroes</span>{" "}
-                look like Yaoguai instead?{" "}
+                gods and wild mythological beast through the nine levels of
+                vertical hells; and in order to free your soul,
               </div>
-              <div> Why the most valuable resource in </div>
-              <div>
+              <div>you will face the great Lord of Death: Mictlantecutli.</div>
+              {/* <div>
                 <span class="text-red-exclusive">Art of War: Red Tides </span>is
                 named as "Soul Essence"?{" "}
               </div>
@@ -94,7 +105,7 @@ function Third() {
                 May you retain an innocent heart like{" "}
                 <span class="text-red">WuKong</span>,{" "}
               </div>
-              <div> after overcoming all these eighty one challenges. </div>
+              <div> after overcoming all these eighty one challenges. </div> */}
             </motion.div>
           </div>
         </motion.div>
@@ -106,10 +117,10 @@ function Third() {
             <div class="home-2-info home-text home-text-line-height slides-animation-long en">
               <div class="introduction-info-en-title">
                 {" "}
-                What matters most is to embark on a{" "}
+                We depic the eastern hero imortal epic{" "}
               </div>
               <div class="text-title-spacing">
-                <span class="text-red-title">NEW JOURNEY</span>.{" "}
+                with a <span class="text-red-title">DEBOTED HEART</span>.{" "}
               </div>
               <div>
                 {" "}

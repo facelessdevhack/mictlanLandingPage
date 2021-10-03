@@ -1,7 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'AvenirRoman';
+  src: local('AvenirLTStd-Roman'), url('./assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AvenirBook';
+  src: local('AvenirLTStd-Book'), url('./assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AvenirBlack';
+  src: local('AvenirLTStd-Black'), url('./assets/fonts/AvenirLTStd-Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Afolkalips';
+  src: local('Afolkalips'), url('./assets/fonts/Afolkalips.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Afolkalips Swash';
+  src: local('Afolkalips Swash'), url('./assets/fonts/Afolkalips Swash.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Avenir-Light';
+  src: local('Avenir-Light'), url('./assets/fonts/Avenir-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Cochin';
+  src: local('cochin'), url('./assets/fonts/cochin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Compact-Semibold';
+  src: local('SF-Compact-Display-Semibold'), url('./assets/fonts/SF-Compact-Display-Semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Compact-Medium';
+  src: local('SF-Compact-Display-Medium'), url('./assets/fonts/SF-Compact-Display-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Compact-Bold';
+  src: local('SF-Compact-Display-Bold'), url('./assets/fonts/SF-Compact-Display-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'itaki';
+  src: local('itaki'), url('./assets/fonts/itaki.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Compact-Regular';
+  src: local('SF-Compact-Display-Regular'), url('./assets/fonts/SF-Compact-Display-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lequire';
+  src: local('Lequire'), url('./assets/fonts/Lequire.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SF-Compact-Rounded-Light';
+  src: local('SF-Compact-Rounded-Light'), url('./assets/fonts/SF-Compact-Rounded-Light.otf') format('opentype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
 html {
-  font-size: 469%;
+  /* font-size: 469%; */
+  font-size: 5.5vw;
   background-color: black;
   color: white;
 }
@@ -26,6 +84,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* @media only screen and (min-width: 1800px) {
+  html {
+    font-size: 5.5vw;
+  }
+} */
 @media only screen and (max-width: 900px) {
   html {
     font-size: 625%;

@@ -13,14 +13,14 @@
 }
 .home-3 .home-3-img {
     right: 0;
-    width: 19.2rem;
-    height: 10.8rem;
+    width: 11.32rem;
+    height: 14.8rem;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
 }
 .home-3 .home-3-info {
-    left: 3rem;
+    left: 1.5rem;
     width: 100%;
     white-space: nowrap;
     text-align: left;
@@ -36,9 +36,9 @@
 .home-3 .home-3-img,
 .home-3 .home-3-info {
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 51%;
+    -webkit-transform: translateY(-37%);
+    transform: translateY(-37%);
 }
 @media only screen and (max-width: 900px) {
     .home-3 {

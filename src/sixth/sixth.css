@@ -1,0 +1,94 @@
+.home-6 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    position: relative;
+}
+.home-6 .home-6-img, .gs-home .home-6 .home-6-info {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50.5%);
+    transform: translateY(-50.5%);
+}
+.home-6 .home-6-img {
+    right: 0;
+    width: 14.1rem;
+    height: 10.8rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+.home-6 .home-6-info {
+    left: 1.5rem;
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.home-6 .home-6-info.en {
+    font-size: .22rem;
+    color: #b5b4b2;
+}
+.home-6 .home-6-img,
+.home-6 .home-6-info {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50.5%);
+    transform: translateY(-50.5%);
+}
+@media only screen and (max-width: 900px) {
+    .home-6 {
+        height: 11rem;
+        background-position: top;
+        font-family: Poppins;
+    }
+    .home-6 .home-6-info.en {
+        white-space: pre-wrap;
+        color: #7f7d7c;
+        font-size: .12rem;
+        top: 6.9rem;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        width: 80%;
+    }
+    .text-title-spacing {
+        margin-bottom: .3rem;
+    }
+    .introduction-info-en-title {
+        font-size: .14rem;
+        letter-spacing: .0072rem;
+    }
+    .text-red-title {
+        display: inline-block;
+        font-size: .22rem;
+        letter-spacing: .0072rem;
+        text-indent: .0072rem;
+    }   
+    .text-red {
+        font-size: .12rem;
+        letter-spacing: .0072rem;
+    }
+    .text-red-exclusive {
+        font-size: .12rem;
+        letter-spacing: .0072rem;
+        text-indent: .0072rem;
+    }
+    .home-6 .home-6-info {
+        top: 6.9rem;
+        left: 50%;
+        /* -webkit-transform: translate(-50%,-50%); */
+        /* transform: translate(-50%,-50%); */
+    }
+    .introduction-info-en-end {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        display: inline-block;
+        font-size: .18rem;
+        letter-spacing: .0072rem;
+    }
+}

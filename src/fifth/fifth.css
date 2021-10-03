@@ -12,7 +12,7 @@
 .home-4 .home-4-info {
     position: absolute;
     top: 50%;
-    right: 3rem;
+    /* right: 3rem; */
     width: 100%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -22,6 +22,37 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.home-4 .home-3-img, .home-3 .home-3-info {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.home-4 .home-3-img-2, .home-3 .home-3-info {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.home-4 .home-3-img-2 {
+    left: 19%;
+    top: 1rem;
+    width: 10.32rem;
+    height: 12.8rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    opacity: 70%;
+}
+.home-4 .home-3-img {
+    left: 30%;
+    top: 1rem;
+    width: 3.32rem;
+    height: 1.8rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
 }
 .text-red {
     font-size: .22rem;

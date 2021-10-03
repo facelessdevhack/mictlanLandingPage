@@ -1,0 +1,127 @@
+.home-news-and-show {
+    padding-top: 0;
+    width: 100%;
+    position: relative;
+    /* background-image: url(/img/b1/img_bg_introduce_1.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+}
+.home-show {
+    width: 12.6rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.home-show .home-show-container {
+    width: 100%;
+}
+.gs-res-preview {
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.gs-res-preview .show-tab {
+    text-align: center;
+    margin-bottom: .15rem;
+}
+.gs-res-preview .show-tab .show-tab-item.active {
+    width: calc(31.6% - .02rem);
+    margin: 0 .01rem;
+}
+.gs-b1-tab {
+    display: inline-block;
+    width: 4.02rem;
+    height: .45rem;
+    cursor: pointer;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.gs-b1-tab .gs-b1-tab-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.gs-res-preview .show-tab .show-tab-item {
+    width: calc(22.8% - .02rem);
+    margin: 0 .01rem;
+}
+.gs-b1-tab .gs-b1-tab-container .tab-bg-l {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.gs-b1-tab .gs-b1-tab-container .tab-bg-r {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.gs-b1-tab .gs-b1-tab-container .tab-text {
+    color: #fff;
+    font-size: .22rem;
+    line-height: .45rem;
+    letter-spacing: .022rem;
+    text-indent: .022rem;
+}
+.gs-res-preview .show-tab .show-tab-item {
+    width: calc(22.8% - .02rem);
+    margin: 0 .01rem;
+}
+.gs-res-preview .show-screen {
+    cursor: pointer;
+    position: relative;
+    /* background-image: url(/img/b1/img_art_library_bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 12.6rem;
+    height: 5.8rem;
+}
+.gs-res-preview .show-thumbnail {
+    padding-top: .15rem;
+    position: relative;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    background-color: #000;
+}
+.gs-res-preview .show-thumbnail .show-thumbnail-item {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: opacity .4s ease-in;
+    transition: opacity .4s ease-in;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 1rem;
+}
+.gs-b1-tab .gs-b1-tab-container .tab-bg-l-img {
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: contain;
+    height: 100%;
+    width: 200%;
+}
+.gs-b1-tab .gs-b1-tab-container .tab-bg-r-img {
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+    height: 100%;
+    width: 200%;
+}

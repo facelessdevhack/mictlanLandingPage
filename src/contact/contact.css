@@ -1,0 +1,22 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.contact-left {
+    text-align: left;
+}
+.contact-left h1 {
+    font-family: 'Avenir';
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.contact-left h3 {
+    font-family: 'SF-Compact-Regular';
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.contact-left p {
+    font-family: 'SF-Compact-Regular';
+}

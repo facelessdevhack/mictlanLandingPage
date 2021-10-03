@@ -6,6 +6,12 @@ import Third from "./third/third";
 import Fourth from "./fourth/fourth";
 import Fifth from "./fifth/fifth";
 import { useMediaQuery } from "react-responsive";
+import Carousels from "./carousel/carousel";
+import Sixth from "./sixth/sixth";
+import Seven from "./seven/seven";
+import Eight from "./eight/eight";
+import Faq from "./faq/faq";
+import Contact from "./contact/contact";
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -16,7 +22,7 @@ function App() {
     <div className="App">
       {isDesktopOrLaptop && (
         <>
-          <div data-v-c038550a="" class="gs-topbar">
+          {/* <div data-v-c038550a="" class="gs-topbar">
             <div data-v-c038550a="" class="gs-topbar-logo">
               <div data-v-c038550a="" class="gamesci-logo">
                 <img
@@ -75,7 +81,7 @@ function App() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
           <ReactPageScroller>
             <div className="section-1">
               <Home />
@@ -91,6 +97,18 @@ function App() {
             </div>
             <div className="section">
               <Fifth />
+            </div>
+            <div className="section">
+              <Sixth />
+            </div>
+            <div className="section">
+              <Seven />
+            </div>
+            <div className="section">
+              <Eight />
+            </div>
+            <div className="section">
+              <Contact />
             </div>
           </ReactPageScroller>
         </>

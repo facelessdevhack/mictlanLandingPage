@@ -42,7 +42,7 @@
   }
 }
 .gs-topbar[data-v-c038550a] {
-  font-family: KaiTi,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+  /* font-family: KaiTi,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif; */
   position: fixed;
   top: 0;
   right: var(--main-margin);

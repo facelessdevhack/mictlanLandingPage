@@ -38,10 +38,19 @@ function Fourth() {
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-3" style={{ backgroundImage: `url(${bg})` }}>
-            <div
+            <motion.div
+              animate={inView ? "visible" : "hidden"}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              variants={{
+                visible: { opacity: 1, y: "-38.55%" },
+                hidden: {
+                  opacity: 0,
+                  y: "-10%",
+                },
+              }}
               class="home-3-img slides-animation-short"
               style={{ backgroundImage: `url(${bgtwo})` }}
-            ></div>
+            ></motion.div>
             <motion.div
               animate={inView ? "visible" : "hidden"}
               variants={{
@@ -55,26 +64,29 @@ function Fourth() {
               class="home-3-info home-text home-text-line-height slides-animation-long en"
             >
               <div class="text-title-spacing">
+                <div class="introduction-info-en-title"> The Clash of two </div>
                 <div class="introduction-info-en-title">
                   {" "}
-                  We depict this Eastern hero's immortal epic{" "}
-                </div>
-                <div class="introduction-info-en-title">
-                  {" "}
-                  with a <span class="text-red-title">devoted heart</span>.{" "}
+                  <span class="text-red-title">CIVILIZATIONS</span>.{" "}
                 </div>
               </div>
-              <div>
+              {/* <div>
                 {" "}
                 The story of <span class="text-exclusive">WuKong </span>tells
                 more than WuKong himself.{" "}
-              </div>
+              </div> */}
               <div class="text-leading">
                 {" "}
-                The monkey is the leading role for sure, but he still is a small
-                part of the whole vivid world.{" "}
+                Relive, through the characters, the clash of two civilizations,
+                the confrontation of two empires
+                <br /> and witness one of the most important events in the
+                history of mankind.
+                <br /> Play as a Mexica warrior or a soldier of the crown, and
+                experience the moral conflicts of
+                <br /> highly realistic characters who have a variety of complex
+                motivations.{" "}
               </div>
-              <div>
+              {/* <div>
                 {" "}
                 There are plenty of intriguing characters and thought-provoking
                 dialogues in{" "}
@@ -85,8 +97,8 @@ function Fourth() {
                 {" "}
                 We applaud when WuKong defeats those so-called "villains", but
                 who are they indeed? Why they go against our heroes?{" "}
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 {" "}
                 Cunning fairies, brutal monsters, amorous lords or coward
                 gods... We are curious about their fear and love, goodwill and{" "}
@@ -118,7 +130,7 @@ function Fourth() {
                 {" "}
                 The dark night has given us piercing eyes, we will use them to{" "}
                 <span class="text-red">discover our destiny</span>.{" "}
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </motion.div>

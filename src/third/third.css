@@ -6,10 +6,10 @@
     position: relative;
 }
 .home-2 .home-2-img {
-    right: 0;
+    left: 0;
     /* width: 30.2rem;
     height: 100%; */
-    width: 20.2rem;
+    width: 11.12rem;
     height: 10.8rem;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,7 +40,7 @@
     font-size: .22rem;
     text-align: right;
     left: unset;
-    right: 3rem;
+    /* right: 1.5rem; */
     color: #b5b4b2;
 }
 .gs-slides .gs-slides-show .slides-animation-long, .gs-home .gs-slides .gs-slides-show .slides-animation-short {
@@ -64,13 +64,15 @@
 .introduction-info-en-title {
     color: #dfdad3;
     font-size: .32rem;
+    font-family: "Cochin";
 }
 home-2 .home-2-info.en {
     font-size: .22rem;
     text-align: right;
     left: unset;
-    right: 3rem;
-    color: #b5b4b2;
+    right: 1rem;
+    /* color: #b5b4b2; */
+    font-family: "Cochin";
 }
 .text-red-title {
     font-size: .4rem;
@@ -87,9 +89,9 @@ home-2 .home-2-info.en {
 .home-2 .home-2-img,
 .home-2 .home-2-info {
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 56%;
+    -webkit-transform: translateY(-46%);
+    transform: translateY(-46%);
 }
 .text-title-spacing {
     margin-bottom: .45rem;
