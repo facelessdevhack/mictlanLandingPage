@@ -70,13 +70,13 @@ function Home() {
               x5-video-player-fullscreen="true"
               x5-video-ignore-metadata="true"
               src={Bg}
-              style={{ objectFit: "cover", opacity: 0.5 }}
+              style={{ objectFit: "cover", opacity: 0.35 }}
             ></video>
           </div>
         </div>
         <div class="mc-home-video">
-          <h1>An Ancient Mythical Tale </h1>
-          <h3>NEW WEBSITE COMING NOV 2025</h3>
+          <h1 style={{ visibility: "hidden" }}>An Ancient Mythical Tale </h1>
+          <h3 style={{ visibility: "hidden" }}>NEW WEBSITE COMING NOV 2025</h3>
           <div>
             <h3>SIGN UP FOR NEWSLETTER </h3>
             <div class="btn_wrap">

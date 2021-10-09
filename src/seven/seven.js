@@ -25,7 +25,7 @@ function Seven() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
@@ -39,6 +39,7 @@ function Seven() {
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-7" style={{ backgroundImage: `url(${bgtwo})` }}>
+            <div className="overlay"></div>
             <div
               class="home-7-img slides-animation-short"
               style={{ backgroundImage: `url(${bg})` }}

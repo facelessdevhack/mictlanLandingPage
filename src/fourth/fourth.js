@@ -24,25 +24,23 @@ function Fourth() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
         <motion.div
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.5, ease: "easeOut" }}
           style={{ height: "100vh" }}
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-3" style={{ backgroundImage: `url(${bg})` }}>
+            <div className="overlay"></div>
             <motion.div
               animate={inView ? "visible" : "hidden"}
-              transition={{ duration: 0.5, ease: "easeInOut" }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
               variants={{
-                visible: { opacity: 1, y: "-38.55%" },
+                visible: { opacity: 1, y: "-39.25%" },
                 hidden: {
                   opacity: 0,
                   y: "-10%",

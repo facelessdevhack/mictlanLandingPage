@@ -58,6 +58,10 @@
     font-size: .22rem;
     color: #a83d32;
 }
+.text-avenir {
+    font-family: 'Avenir-Light';
+    font-size: 0.18rem;
+}
 @media only screen and (max-width: 900px) {
     .home-4 {
         height: 10rem;

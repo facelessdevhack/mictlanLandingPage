@@ -26,7 +26,7 @@ function Fifth() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
@@ -41,6 +41,7 @@ function Fifth() {
         >
           <div class="gs-slides-in gs-slides-show">
             <div class="home-4" style={{ backgroundImage: `url(${bg})` }}>
+              <div className="overlay"></div>
               {/* <div
                 class="home-3-img slides-animation-short"
                 style={{ backgroundImage: `url(${moon})` }}
@@ -79,21 +80,21 @@ function Fifth() {
                     prehispcanic <span class="text-red-title">World</span>{" "}
                   </div>
                 </div>
-                <div>
+                <div className="text-avenir">
                   Battle in the mighty city of Tenochtitlan, climb the snowy
                   mountain of Popocatepetl, travel
                 </div>
-                <div>
+                <div className="text-avenir">
                   {" "}
                   through cities and ancient temples, explore the deep jungle
                   flatlands of the Yucatan Peninsula,{" "}
                 </div>
-                <div>
+                <div className="text-avenir">
                   {" "}
                   the mountains of Chiapas, the valleys of Central Mexico, and
                   much more.{" "}
                 </div>
-                <div>
+                <div className="text-avenir">
                   {" "}
                   On each adventure through Mictlan, you will see amazing
                   places.{" "}

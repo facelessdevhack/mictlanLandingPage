@@ -20,3 +20,107 @@
 .contact-left p {
     font-family: 'SF-Compact-Regular';
 }
+.contact-right p {
+    font-family: 'SF-Compact-Regular';
+    text-align: left;
+}
+.contact-right input,
+.contact-right textarea {
+    border: 1px solid white;
+    background: transparent;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    /* opacity: 70%; */
+    margin: 5px 0;
+    color: white;
+}
+.contact-right input,
+.contact-right textarea:focus {
+  outline: none;
+}
+.contact-two {
+    display: flex;
+    gap: 0 10px;
+    width: 106%;
+    justify-content: space-evenly;
+}
+.contact-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-radio input {
+    border: unset;
+    background: unset;
+    width: unset;
+    padding: unset;
+    border-radius: unset;
+    opacity: unset;
+    margin: 0 10px;
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.contact-radio {
+    text-align: left;
+}
+.contact-sub button {
+    background-color: #51707e;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    /* color: white; */
+    font-family: 'SF-Compact-Regular';
+}
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 80px;
+    gap: 8px;
+    margin-left: 5px;
+  }
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 4.5px;
+    top: 2px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(
+45deg);
+  }

@@ -31,6 +31,14 @@
     align-items: center;
     padding: 0 50px;
 }
+.home-introduction .overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
 .gs-slides .gs-slides-show .slides-animation-long, .gs-home .gs-slides .gs-slides-show .slides-animation-short {
     top: 50%;
     -webkit-transition: top 1s;

@@ -20,28 +20,24 @@ function Second() {
 
   console.log(entry);
   const variants = {
-    visible: { opacity: 1, y: 0, height: "50vh" },
+    visible: { opacity: 1 },
     hidden: {
       opacity: 0,
-      y: -100,
-      height: "50vh",
     },
   };
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <motion.div
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          class="mc-slides"
-          style={{ height: "100vh" }}
-        >
+        <motion.div class="mc-slides" style={{ height: "100vh" }}>
           <div class="mc-slides-in mc-slides-hidden-up">
-            <div
+            <motion.div
+              animate={inView ? "visible" : "hidden"}
+              variants={variants}
+              transition={{ duration: 0.5, ease: "easeOut" }}
               class="home-introduction"
               style={{ backgroundImage: `url(${bgtwo})` }}
             >
+              <div className="overlay"></div>
               <motion.div
                 animate={inView ? "visible" : "hidden"}
                 variants={{
@@ -79,7 +75,7 @@ function Second() {
                   Brace yourself for excitement.{" "}
                 </div> */}
               </motion.div>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
       )}

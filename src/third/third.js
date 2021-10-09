@@ -24,20 +24,21 @@ function Third() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <motion.div
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          style={{ height: "100vh" }}
-          class="gs-slides-in gs-slides-show"
-        >
-          <div class="home-2" style={{ backgroundImage: `url(${bgtwo})` }}>
+        <div style={{ height: "100vh" }} class="gs-slides-in gs-slides-show">
+          <motion.div
+            animate={inView ? "visible" : "hidden"}
+            variants={variants}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            class="home-2"
+            style={{ backgroundImage: `url(${bgtwo})` }}
+          >
+            <div className="overlay"></div>
             <motion.div
               animate={inView ? "visible" : "hidden"}
               transition={{ duration: 0.5, ease: "easeInOut" }}
@@ -54,7 +55,7 @@ function Third() {
             <motion.div
               animate={inView ? "visible" : "hidden"}
               variants={{
-                visible: { opacity: 1, y: "-50%", x: "-8%" },
+                visible: { opacity: 1, y: "-50%", x: "0" },
                 hidden: {
                   opacity: 0,
                   y: "-100%",
@@ -107,8 +108,8 @@ function Third() {
               </div>
               <div> after overcoming all these eighty one challenges. </div> */}
             </motion.div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       )}
       {isTabletOrMobile && (
         <div class="gs-slides-in">

@@ -24,31 +24,38 @@ function Sixth() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
         <motion.div
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.5, ease: "easeOut" }}
           style={{ height: "100vh" }}
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-6" style={{ backgroundImage: `url(${bg})` }}>
-            <div
+            <div className="overlay"></div>
+            <motion.div
+              animate={inView ? "visible" : "hidden"}
+              variants={{
+                visible: { opacity: 1, y: "-50%" },
+                hidden: {
+                  opacity: 0.1,
+                  y: "-45%",
+                },
+              }}
+              transition={{ duration: 0.6, ease: "easeInOut" }}
               class="home-6-img slides-animation-short"
               style={{ backgroundImage: `url(${bgtwo})` }}
-            ></div>
+            ></motion.div>
             <motion.div
               animate={inView ? "visible" : "hidden"}
               variants={{
                 visible: { opacity: 1, y: "-50%" },
                 hidden: {
                   opacity: 0,
-                  y: "-100%",
+                  y: "-40%",
                 },
               }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -62,22 +69,25 @@ function Sixth() {
                   <span class="text-red-title">TOGETHER.</span>{" "}
                 </div>
               </div>
-              <div>
+              <div className="text-avenir">
                 {" "}
                 For the creation of the entire universe of Mictlan, our art and
                 concept team is advised by a group{" "}
               </div>
-              <div>
+              <div className="text-avenir">
                 {" "}
                 of specialists in history, society, clothing and traditions, in
                 order to faithfully represent the{" "}
               </div>
-              <div>
+              <div className="text-avenir">
                 {" "}
                 pre-Hispanic Mexico; but, also, our game will rely on fantastic,
                 mythological, and fictional{" "}
               </div>
-              <div> elements that will make Mictlan a unique game. </div>
+              <div className="text-avenir">
+                {" "}
+                elements that will make Mictlan a unique game.{" "}
+              </div>
             </motion.div>
           </div>
         </motion.div>

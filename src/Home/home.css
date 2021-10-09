@@ -1368,7 +1368,7 @@ transform: scale(1.1)
     -webkit-transition: all 1.2s ease;
     transition: all 1.2s ease;
 }
-
+/* 
 .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1381,7 +1381,7 @@ transform: scale(1.1)
     width: 520px;
     height: 64px;
     border-radius: 80px;
-}
+} */
 
 .slider {
     -webkit-transition-delay: .25s;

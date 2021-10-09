@@ -26,7 +26,7 @@ function Eight() {
     visible: { opacity: 1, y: 0 },
     hidden: {
       opacity: 0,
-      y: -100,
+      // y: -100,
     },
   };
   return (
@@ -40,6 +40,7 @@ function Eight() {
         class="gs-slides-in gs-slides-show"
       >
         <div class="home-8" style={{ backgroundImage: `url(${bgtwo})` }}>
+          {/* <div className="overlay"></div> */}
           <div className="press-kit-page">
             <div className="press-left">
               <h1>PRESS - KIT</h1>
