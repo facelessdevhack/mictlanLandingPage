@@ -25,7 +25,7 @@
     bottom: 0.2rem;
     display: flex;
     gap: 0.3rem;
-    align-items: baseline;
+    align-items: center;
 }
 .mc-home-bottom-right {
     position: fixed;
