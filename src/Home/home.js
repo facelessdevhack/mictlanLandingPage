@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Bg from "../assets/bg.mp4";
 import "./home.css";
 import { useMediaQuery } from "react-responsive";
+import mbbg from "../assets/mbbg.png";
 import logo from "../assets/Logo.png";
 import ps from "../assets/ps.png";
 import xbox from "../assets/xbox.png";
@@ -68,25 +69,49 @@ function Home() {
             </div>
           </>
         )}
-        <div class="mc-home-1">
-          <div class="mc-home-bg">
-            <video
-              loop="loop"
-              preload="auto"
-              muted="muted"
-              autoplay="autoplay"
-              playsinline="true"
-              webkit-playsinline="true"
-              x-webkit-airplay="true"
-              x5-video-player-type="h5-page"
-              x5-video-orientation="h5"
-              x5-video-player-fullscreen="true"
-              x5-video-ignore-metadata="true"
-              src={Bg}
-              style={{ objectFit: "cover", opacity: 0.35 }}
-            ></video>
+        {isDesktopOrLaptop && (
+          <div class="mc-home-1">
+            <div class="mc-home-bg">
+              <video
+                loop="loop"
+                preload="auto"
+                muted="muted"
+                autoplay="autoplay"
+                playsinline="true"
+                webkit-playsinline="true"
+                x-webkit-airplay="true"
+                x5-video-player-type="h5-page"
+                x5-video-orientation="h5"
+                x5-video-player-fullscreen="true"
+                x5-video-ignore-metadata="true"
+                src={Bg}
+                style={{ objectFit: "cover", opacity: 0.35 }}
+              ></video>
+            </div>
           </div>
-        </div>
+        )}
+        {isTabletOrMobile && (
+          <div class="mc-home-1">
+            <div class="mc-home-bg">
+              <video
+                loop="loop"
+                preload="auto"
+                muted="muted"
+                autoplay="autoplay"
+                playsinline="true"
+                webkit-playsinline="true"
+                x-webkit-airplay="true"
+                x5-video-player-type="h5-page"
+                x5-video-orientation="h5"
+                x5-video-player-fullscreen="true"
+                x5-video-ignore-metadata="true"
+                src={Bg}
+                style={{ objectFit: "cover", opacity: 0.35 }}
+              ></video>
+            </div>
+          </div>
+        )}
+
         <div class="mc-home-video">
           <h1 style={{ visibility: "hidden" }}>An Ancient Mythical Tale </h1>
           <h3 style={{ visibility: "hidden" }}>NEW WEBSITE COMING NOV 2025</h3>

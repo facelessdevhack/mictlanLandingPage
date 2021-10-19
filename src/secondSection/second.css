@@ -99,14 +99,17 @@
     .home-introduction {
         height: 6.3rem;
         text-align: center;
+        background-size: cover;
     }
     .home-introduction .introduction-info.en {
-        -webkit-transform: translateY(-104%);
         transform: translateY(-104%);
         width: 80%;
-        top: 50%;
+        /* top: 50%; */
         font-size: .14rem;
         text-align: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
     }
     .home-introduction .introduction-info {
         position: relative;
@@ -117,19 +120,22 @@
         margin: 0 auto;
     }
     .home-introduction .introduction-info .introduction-info-en-preface1 {
-        font-size: .18rem;
+        font-size: .28rem;
         letter-spacing: .0072rem;
-        padding-top: 1rem;
+        padding: 2% 15%;
     }
     .home-introduction .introduction-info .introduction-info-en-preface2 {
-        font-size: .24rem;
+        font-size: .34rem;
         letter-spacing: .0072rem;
-        margin-top: -.1rem;
+        margin-top: 0.5rem;
     }
     .home-introduction .introduction-info .introduction-info-en-preface3 {
-        font-size: .35rem;
         font-weight: 800;
-        margin-top: .04rem;
+        text-align: justify;
+        padding-left: unset;
+        padding: 15%;
+        margin-top: -0.25rem;
+        font-family: "Avenir-Light";
     }
     .home-introduction .introduction-info .introduction-info-en-preface4 {
         color: #a83d32;

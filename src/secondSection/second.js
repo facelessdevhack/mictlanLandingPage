@@ -84,20 +84,46 @@ function Second() {
           <div>
             <div
               class="home-introduction"
-              style={{ backgroundImage: `url(${mbBg})` }}
+              style={{ backgroundImage: `url(${bgtwo})` }}
             >
-              <div class="introduction-info slides-animation-long en">
-                <div class="introduction-info-en-preface1">
+              <div className="overlay"></div>
+              <motion.div
+                animate={inView ? "visible" : "hidden"}
+                variants={{
+                  visible: { opacity: 1, y: "0%", x: "0%" },
+                  hidden: {
+                    opacity: 0,
+                    y: "-100%",
+                  },
+                }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+                class="introduction-info slides-animation-long en"
+              >
+                <div className="introduction-info-en-preface1">
                   {" "}
-                  A whole new adventure{" "}
+                  5000 YEAR OF LOST MYTHS{" "}
                 </div>
-                <div class="introduction-info-en-preface2"> awaits. </div>
-                <div class="introduction-info-en-preface3"> LOCK N' LOAD. </div>
-                <div class="introduction-info-en-preface4">
+                <div className="introduction-info-en-preface2">
+                  {" "}
+                  AWAKEN THEM WITHIN YOU{" "}
+                </div>
+                <div className="introduction-info-en-preface3">
+                  {" "}
+                  Their stories have been mute for centuries, their songs and
+                  music have been nothing more than just empty echoes, crying
+                  out to be heard once more... in Mictlan. <br /> <br /> In this
+                  ancient adventure game, a red sky will rise above endless
+                  mountains of deep jungle, where the remnants of a great and
+                  lost civilization are hidden in its shadows. You will follow
+                  the journey of brave characters in the mids of the chaos and
+                  destruction of the last sighs of the Mexica civilization
+                  during the conquest.{" "}
+                </div>
+                {/* <div className="introduction-info-en-preface4">
                   {" "}
                   Brace yourself for excitement.{" "}
-                </div>
-              </div>
+                </div> */}
+              </motion.div>
             </div>
           </div>
         </div>

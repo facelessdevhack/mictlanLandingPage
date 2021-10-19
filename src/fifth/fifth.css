@@ -66,6 +66,7 @@
     .home-4 {
         height: 10rem;
         background-position: top;
+        background-size: cover;
     }
     .home-4 .home-4-info.en {
         width: 80%;

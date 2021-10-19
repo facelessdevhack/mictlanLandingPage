@@ -105,7 +105,7 @@ function Fifth() {
         </motion.div>
       )}
       {isTabletOrMobile && (
-        <div class="home-4" style={{ backgroundImage: `url(${mbBg})` }}>
+        <div class="home-4" style={{ backgroundImage: `url(${bg})` }}>
           <div class="home-4-info home-text home-text-line-height slides-animation-long en">
             <div class="text-title-spacing">
               <div class="introduction-info-en-title"> The banner stands. </div>

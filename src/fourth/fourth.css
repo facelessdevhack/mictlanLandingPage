@@ -50,19 +50,33 @@
 }
 @media only screen and (max-width: 900px) {
     .home-3 {
-        height: 11rem;
+        /* height: 11rem; */
         background-position: top;
         font-family: Poppins;
     }
     .home-3 .home-3-info.en {
-        white-space: pre-wrap;
-        color: #7f7d7c;
-        font-size: .12rem;
-        top: 6.9rem;
-        left: 50%;
-        -webkit-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-        width: 80%;
+        font-weight: 800;
+        text-align: justify;
+        padding-left: unset;
+        font-size: 0.12rem;
+        margin-top: -0.25rem;
+        font-family: "Avenir-Light";
+        color: white;
+        left: unset;
+    }
+    .introduction-info-en-preface3 {
+        font-weight: 800;
+        text-align: justify;
+        padding-left: unset;
+        padding: 15%;
+        margin-top: -0.25rem;
+        font-family: "Avenir-Light";
+        color: white;
+        font-size: 0.12rem;
+        left: unset;
+    }
+    .home-3 {
+        background-size: cover;
     }
     .text-title-spacing {
         margin-bottom: .3rem;
@@ -88,7 +102,6 @@
     }
     .home-3 .home-3-info {
         top: 6.9rem;
-        left: 50%;
         /* -webkit-transform: translate(-50%,-50%); */
         /* transform: translate(-50%,-50%); */
     }

@@ -86,79 +86,47 @@ function Third() {
                 vertical hells; and in order to free your soul,
               </div>
               <div>you will face the great Lord of Death: Mictlantecutli.</div>
-              {/* <div>
-                <span class="text-red-exclusive">Art of War: Red Tides </span>is
-                named as "Soul Essence"?{" "}
-              </div>
-              <div> Most players might have no idea what hides from them. </div>
-              <div class="text-leading"> But we always remember. </div>
-              <div>
-                {" "}
-                So how could we forget{" "}
-                <span class="text-exclusive">Journey to the West</span>?{" "}
-              </div>
-              <div class="text-leading">
-                {" "}
-                How could we forget all the regrets remained from 500 years ago?{" "}
-              </div>
-              <div>
-                {" "}
-                May you retain an innocent heart like{" "}
-                <span class="text-red">WuKong</span>,{" "}
-              </div>
-              <div> after overcoming all these eighty one challenges. </div> */}
             </motion.div>
           </motion.div>
         </div>
       )}
       {isTabletOrMobile && (
         <div class="gs-slides-in">
-          <div class="home-2" style={{ backgroundImage: `url(${mbBg})` }}>
+          <div class="home-2" style={{ backgroundImage: `url(${bgtwo})` }}>
             <div class="home-2-img slides-animation-short"></div>
-            <div class="home-2-info home-text home-text-line-height slides-animation-long en">
+            <motion.div
+              animate={inView ? "visible" : "hidden"}
+              variants={{
+                visible: { opacity: 1, y: "-50%", x: "0" },
+                hidden: {
+                  opacity: 0,
+                  y: "-100%",
+                },
+              }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              class="home-2-info home-text home-text-line-height slides-animation-long en"
+            >
               <div class="introduction-info-en-title">
                 {" "}
-                We depic the eastern hero imortal epic{" "}
+                Face the dangers between the heavens{" "}
               </div>
               <div class="text-title-spacing">
-                with a <span class="text-red-title">DEBOTED HEART</span>.{" "}
+                <span className="introduction-info-en-title">and the </span>
+                <span class="text-red-title">UNDERWORLD</span>.
               </div>
-              <div>
-                {" "}
-                As content creators, we've been struggling in this industry,{" "}
+              <div className="introduction-info-en-preface3">
+                The collapse of the civilization will lead your soul to the
+                three stages of the Mexica reality: the heavens, <br />
+                <br /> the earth, and the Mictlan, better known as the
+                underworld, where you will battle evil spirits, demonic <br />
+                <br />
+                gods and wild mythological beast through the nine levels of
+                vertical hells; and in order to free your soul,
+                <br />
+                <br />
+                you will face the great Lord of Death: Mictlantecutli.
               </div>
-              <div class="text-leading">
-                {" "}
-                since it is hard to hold back from expressing our true self.{" "}
-              </div>
-              <div> Why so many player characters in </div>
-              <div>
-                <span class="text-red-exclusive">Legends of 100 Heroes</span>{" "}
-                look like Yaoguai instead?{" "}
-              </div>
-              <div> Why the most valuable resource in </div>
-              <div>
-                <span class="text-red-exclusive">Art of War: Red Tides </span>is
-                named as "Soul Essence"?{" "}
-              </div>
-              <div> Most players might have no idea what hides from them. </div>
-              <div class="text-leading"> But we always remember. </div>
-              <div>
-                {" "}
-                So how could we forget{" "}
-                <span class="text-exclusive">Journey to the West</span>?{" "}
-              </div>
-              <div class="text-leading">
-                {" "}
-                How could we forget all the regrets remained from 500 years ago?{" "}
-              </div>
-              <div>
-                {" "}
-                May you retain an innocent heart like{" "}
-                <span class="text-red">WuKong</span>,{" "}
-              </div>
-              <div> after overcoming all these eighty one challenges. </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       )}
