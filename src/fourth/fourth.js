@@ -55,10 +55,10 @@ function Fourth() {
                 visible: { opacity: 1, y: "-50%" },
                 hidden: {
                   opacity: 0,
-                  y: "-100%",
+                  y: "-60%",
                 },
               }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
+              // transition={{ duration: 0.5, ease: "easeOut" }}
               class="home-3-info home-text home-text-line-height slides-animation-long en"
             >
               <div class="text-title-spacing">

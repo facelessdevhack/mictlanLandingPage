@@ -12,6 +12,12 @@ import kickstarter from "../assets/kickstarter.png";
 import steam from "../assets/steam.png";
 import { ArrowRightAlt } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
+import d from "../assets/icons/d.png";
+import i from "../assets/icons/i.png";
+import f from "../assets/icons/f.png";
+import p from "../assets/icons/p.png";
+import t from "../assets/icons/t.png";
+import y from "../assets/icons/y.png";
 
 function Home() {
   const [showSign, setSign] = useState(true);
@@ -29,7 +35,15 @@ function Home() {
           <>
             <div class="mictlan-home-nav">
               <div class="top-bar">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className="mc-logo" />
+              </div>
+              <div className="topleft">
+                <img src={i} alt="" className="iconTop" />
+                <img src={f} alt="" className="iconTop" />
+                <img src={t} alt="" className="iconTop" />
+                <img src={y} alt="" className="iconTop" />
+                <img src={d} alt="" className="iconTop" />
+                <img src={p} alt="" className="iconTop" />
               </div>
             </div>
             <div className="mc-home-bottom">
@@ -48,9 +62,8 @@ function Home() {
                 <button>ADD TO STEAM WISHLIST</button>
               </div>
               <div className="meta">
-                <h4>
-                  meta<span>Studios</span>
-                </h4>
+                <h4>meta</h4>
+                <p>STUDIOS</p>
               </div>
             </div>
           </>
@@ -182,7 +195,7 @@ function Home() {
                           marginBottom: "17px",
                         }}
                         onClick={() => {
-                          setTransform("-80px");
+                          setTransform("-60px");
                           setBtn("-90px");
                         }}
                       />
@@ -191,7 +204,7 @@ function Home() {
                       <ArrowRightAlt
                         style={{ fontSize: "0.4rem", transition: "0.5s" }}
                         onClick={() => {
-                          setTransform("-160px");
+                          setTransform("-118px");
                           setBtn("-180px");
                         }}
                       />
