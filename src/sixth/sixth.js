@@ -94,70 +94,26 @@ function Sixth() {
       )}
       {isTabletOrMobile && (
         <div class="">
-          <div class="home-6" style={{ backgroundImage: `url(${mbBg})` }}>
-            <div
-              class="home-6-img slides-animation-short"
-              //   style={{ backgroundImage: `url(${bgtwo})` }}
-            ></div>
-            <div class="home-6-info home-text home-text-line-height slides-animation-long en">
+          <div class="home-2" style={{ backgroundImage: `url(${bg})` }}>
+            <motion.div class="introduction-info slides-animation-long en">
               <div class="text-title-spacing">
-                <div class="introduction-info-en-title"> We depict this </div>
                 <div class="introduction-info-en-title">
-                  {" "}
-                  Eastern hero's immortal epic with a{" "}
+                  A game where history and fantasy come
                 </div>
-                <div class="text-red-title"> DEVOTED HEART. </div>
+                <div class="introduction-info-en-title">
+                  <span class="text-red-title">TOGETHER.</span>{" "}
+                </div>
               </div>
-              <div class="introduction-info">
+              <div className="introduction-info-en-preface3">
                 {" "}
-                The story of <span class="text-exclusive">WuKong </span>tells
-                more than WuKong himself.{" "}
+                For the creation of the entire universe of Mictlan, our art and
+                concept team is advised by a group of specialists in history,
+                society, clothing and traditions, in order to faithfully
+                represent the pre-Hispanic Mexico; but, also, our game will rely
+                on fantastic, mythological, and fictional elements that will
+                make Mictlan a unique game.{" "}
               </div>
-              <div class="text-leading">
-                {" "}
-                The monkey is the leading role for sure, but he still is a small
-                part of the whole vivid world.{" "}
-              </div>
-              <div>
-                {" "}
-                There are plenty of intriguing characters and thought-provoking
-                dialogues in{" "}
-                <span class="text-exclusive">Journey to the West</span>, not to
-                mention the darkness veiled.{" "}
-              </div>
-              <div>
-                {" "}
-                We applaud when WuKong defeats those so-called "villains", but
-                who are they indeed? Why they go against our heroes? Cunning
-                fairies, brutal monsters, amorous lords or coward gods...{" "}
-              </div>
-              <div> We are curious about their fear and love, </div>
-              <div class="text-leading">
-                {" "}
-                goodwill and hatred, obssessiveness and daily life.{" "}
-              </div>
-              <div>
-                {" "}
-                In virtue of high quality graphics, sufficient details,
-                immersive combats and great storyline, we are able to build that{" "}
-                <span class="text-red">Eastern fantasy world </span>alive in our
-                heart, instead of only picturing some major characters.{" "}
-              </div>
-              <div>
-                {" "}
-                This is a wide wild romantic world, suffused with fancy and
-                mystery, yet still seems truly existing.{" "}
-              </div>
-              <div class="text-leading">
-                <span class="text-red-exclusive">Black Myth: WuKong</span>, is
-                our first attempt to create this ultimate fictional universe.{" "}
-              </div>
-              <div class="">
-                {" "}
-                The dark night has given us piercing eyes, we will use them to{" "}
-                <span class="text-red">discover our destiny</span>.{" "}
-              </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       )}

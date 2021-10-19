@@ -95,26 +95,18 @@ function Third() {
           <div class="home-2" style={{ backgroundImage: `url(${bgtwo})` }}>
             <div class="home-2-img slides-animation-short"></div>
             <motion.div
-              animate={inView ? "visible" : "hidden"}
-              variants={{
-                visible: { opacity: 1, y: "-50%", x: "0" },
-                hidden: {
-                  opacity: 0,
-                  y: "-100%",
-                },
-              }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-              class="home-2-info home-text home-text-line-height slides-animation-long en"
+              style={{ marginTop: "25%" }}
+              class="introduction-info slides-animation-long en"
             >
               <div class="introduction-info-en-title">
                 {" "}
-                Face the dangers between the heavens{" "}
+                Face the dangers between the heavens and the
               </div>
               <div class="text-title-spacing">
-                <span className="introduction-info-en-title">and the </span>
                 <span class="text-red-title">UNDERWORLD</span>.
               </div>
               <div className="introduction-info-en-preface3">
+                {" "}
                 The collapse of the civilization will lead your soul to the
                 three stages of the Mexica reality: the heavens, <br />
                 <br /> the earth, and the Mictlan, better known as the
@@ -124,8 +116,12 @@ function Third() {
                 vertical hells; and in order to free your soul,
                 <br />
                 <br />
-                you will face the great Lord of Death: Mictlantecutli.
+                you will face the great Lord of Death: Mictlantecutli.{" "}
               </div>
+              {/* <div className="introduction-info-en-preface4">
+                  {" "}
+                  Brace yourself for excitement.{" "}
+                </div> */}
             </motion.div>
           </div>
         </div>

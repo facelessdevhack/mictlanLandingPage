@@ -100,6 +100,7 @@ home-8 .home-8-info.en {
     margin: 0 auto;
 }
 
+
 .home-8-video-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -204,9 +205,18 @@ home-8 .home-8-info.en {
 }
 @media only screen and (max-width: 900px) {
     .home-7 {
-        height: 8.9rem;
+        height: fit-content;
         background-position: top;
         font-family: Poppins;
+    }
+    .introduction-info-en-title {
+        color: #dfdad3;
+        font-size: .22rem;
+    }
+    .text-red-title {
+        font-size: .3rem;
+        text-transform: uppercase;
+        color: #a83d32;
     }
     .home-7 .home-7-info.en {
         top: 4.5rem;

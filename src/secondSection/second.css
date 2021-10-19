@@ -102,7 +102,7 @@
         background-size: cover;
     }
     .home-introduction .introduction-info.en {
-        transform: translateY(-104%);
+        transform: translateY(0%);
         width: 80%;
         /* top: 50%; */
         font-size: .14rem;

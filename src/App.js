@@ -199,21 +199,56 @@ function App() {
               </div>
             </div>
           </div> */}
-          <div className="section-1">
-            <Home />
-          </div>
-          <div className="section">
-            <Second />
-          </div>
-          <div className="section">
-            <Third />
-          </div>
-          <div className="section">
-            <Fourth />
-          </div>
-          <div className="section">
-            <Fifth />
-          </div>
+          <LazyLoad>
+            <div className="section-1">
+              <Home />
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="section">
+              <Second />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Third />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Fourth />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Fifth />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Sixth />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Seven />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Eight />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Faq />
+            </div>
+          </LazyLoad>
+          <LazyLoad offset={100}>
+            <div className="section">
+              <Contact />
+            </div>
+          </LazyLoad>
         </>
       )}
     </div>

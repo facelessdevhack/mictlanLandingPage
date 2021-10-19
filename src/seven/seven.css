@@ -120,10 +120,30 @@ home-7 .home-7-info.en {
     margin-bottom: 0.4rem;
 }
 @media only screen and (max-width: 900px) {
-    .home-7 {
-        height: 8.9rem;
+    .home-10 {
         background-position: top;
         font-family: Poppins;
+        background-size: cover;
+padding: 15%;
+text-align: center;
+/* height: 90vh; */
+height: 140vh;
+    }
+    .home-7-video-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: unset;
+        gap: 0.0001rem;
+        /* height: 100vh; */
+    }
+    .home-7-video {
+        width: 98%;
+        z-index: 1;
+    }
+    .home-7-video h1 {
+        font-family: "Afolkalips";
+        font-size: 0.4rem;
+        margin-bottom: 0.4rem;
     }
     .home-7 .home-7-info.en {
         top: 4.5rem;

@@ -93,52 +93,56 @@ function Seven() {
       )}
       {isTabletOrMobile && (
         <div class="gs-slides-in">
-          <div class="home-2" style={{ backgroundImage: `url(${mbBg})` }}>
-            <div class="home-2-img slides-animation-short"></div>
-            <div class="home-2-info home-text home-text-line-height slides-animation-long en">
-              <div class="introduction-info-en-title">
-                {" "}
-                We depic the eastern hero imortal epic{" "}
+          <div class="home-10" style={{ backgroundImage: `url(${bgtwo})` }}>
+            <motion.div
+              style={{ marginTop: "25%" }}
+              class="introduction-info slides-animation-long en"
+            >
+              <div className="home-7-video-container">
+                <div className="home-7-video-wrapper">
+                  <div className="home-7-video">
+                    <h1>GAMEPLAY</h1>
+                    <video
+                      className="home-7-video-inner"
+                      src={one}
+                      loop
+                      controls
+                      // style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div className="home-7-video">
+                    <h1>CONCEPT</h1>
+                    <video
+                      className="home-7-video-inner"
+                      src={one}
+                      loop
+                      controls
+                      // style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div className="home-7-video">
+                    <h1>characters</h1>
+                    <video
+                      className="home-7-video-inner"
+                      src={one}
+                      loop
+                      controls
+                      // style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div className="home-7-video">
+                    <h1>VIDEOS</h1>
+                    <video
+                      className="home-7-video-inner"
+                      src={one}
+                      loop
+                      controls
+                      // style={{ width: "100%" }}
+                    />
+                  </div>
+                </div>
               </div>
-              <div class="text-title-spacing">
-                with a <span class="text-red-title">DEBOTED HEART</span>.{" "}
-              </div>
-              <div>
-                {" "}
-                As content creators, we've been struggling in this industry,{" "}
-              </div>
-              <div class="text-leading">
-                {" "}
-                since it is hard to hold back from expressing our true self.{" "}
-              </div>
-              <div> Why so many player characters in </div>
-              <div>
-                <span class="text-red-exclusive">Legends of 100 Heroes</span>{" "}
-                look like Yaoguai instead?{" "}
-              </div>
-              <div> Why the most valuable resource in </div>
-              <div>
-                <span class="text-red-exclusive">Art of War: Red Tides </span>is
-                named as "Soul Essence"?{" "}
-              </div>
-              <div> Most players might have no idea what hides from them. </div>
-              <div class="text-leading"> But we always remember. </div>
-              <div>
-                {" "}
-                So how could we forget{" "}
-                <span class="text-exclusive">Journey to the West</span>?{" "}
-              </div>
-              <div class="text-leading">
-                {" "}
-                How could we forget all the regrets remained from 500 years ago?{" "}
-              </div>
-              <div>
-                {" "}
-                May you retain an innocent heart like{" "}
-                <span class="text-red">WuKong</span>,{" "}
-              </div>
-              <div> after overcoming all these eighty one challenges. </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       )}

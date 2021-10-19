@@ -87,18 +87,7 @@ function Second() {
               style={{ backgroundImage: `url(${bgtwo})` }}
             >
               <div className="overlay"></div>
-              <motion.div
-                animate={inView ? "visible" : "hidden"}
-                variants={{
-                  visible: { opacity: 1, y: "0%", x: "0%" },
-                  hidden: {
-                    opacity: 0,
-                    y: "-100%",
-                  },
-                }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-                class="introduction-info slides-animation-long en"
-              >
+              <motion.div class="introduction-info slides-animation-long en">
                 <div className="introduction-info-en-preface1">
                   {" "}
                   5000 YEAR OF LOST MYTHS{" "}

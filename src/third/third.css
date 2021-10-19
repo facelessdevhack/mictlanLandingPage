@@ -109,13 +109,13 @@
 }
 @media only screen and (max-width: 900px) {
     .home-2 {
-        height: 8.9rem;
+        height: 80vh;
         background-position: top;
         font-family: Poppins;
     }
     .home-2 .home-2-info.en {
         top: 4.5rem;
-        font-size: .12rem;
+        font-size: .18rem;
         color: #7f7d7c;
         text-align: center;
         right: unset;
@@ -124,18 +124,26 @@
         white-space: pre-wrap;
         width: 85%;
         padding: 8%;
+        height: unset;
     }
 .introduction-info-en-preface3 {
         font-weight: 800;
         text-align: justify;
         padding-left: unset;
-        padding: 15%;
-        margin-top: -0.25rem;
+        padding: unset;
+        margin-top: 0.75rem;
         font-family: "Avenir-Light";
         color: white;
     }
+    .introduction-info-en-title {
+        color: #dfdad3;
+        font-size: .22rem;
+    }
     .home-2{
         background-size: cover;
+        padding: 15%;
+    text-align: center;
+    /* height: 90vh; */
     }
     .text-title-spacing {
         margin-bottom: .3rem;
@@ -151,6 +159,9 @@
     .text-red {
         font-size: .12rem;
         letter-spacing: .0072rem;
+    }
+    .text-red-title {
+        font-size: 0.25rem;
     }
 
 }

@@ -105,66 +105,31 @@ function Fifth() {
         </motion.div>
       )}
       {isTabletOrMobile && (
-        <div class="home-4" style={{ backgroundImage: `url(${bg})` }}>
-          <div class="home-4-info home-text home-text-line-height slides-animation-long en">
+        <div class="home-2" style={{ backgroundImage: `url(${bg})` }}>
+          <motion.div
+            style={{ marginTop: "35%" }}
+            class="introduction-info slides-animation-long en"
+          >
             <div class="text-title-spacing">
-              <div class="introduction-info-en-title"> The banner stands. </div>
               <div class="introduction-info-en-title">
                 {" "}
-                The soul of Yaoguai would be{" "}
+                The Ancient & Mythical{" "}
               </div>
-              <div class="text-red-title"> FREE! </div>
+              <div class="introduction-info-en-title">
+                {" "}
+                prehispcanic <span class="text-red-title">World</span>{" "}
+              </div>
             </div>
-            <div>Six years ago,</div>
-            <div>on April Fool's Day by chance,</div>
-            <div>we determined to develop a big-deal video game.</div>
-            <div>Another six years before that,</div>
-            <div class="">we fiercely argued about where Sun WuKong</div>
-            <div>headed to after his Buddhahood.</div>
-            <div> Twelve years in total, the commitment we made </div>
-            <div class="text-leading"> became malarky in the end. </div>
-            <div> On countless nights of working overtime, </div>
-            <div class="">
+            <p className="introduction-info-en-preface3">
               {" "}
-              exhaustedly, we asked ourselves half-jokingly --{" "}
-            </div>
-            <div>
-              {" "}
-              how much did it matter whether{" "}
-              <span class="text-red">Game Science </span>
-            </div>
-            <div> exist or not? </div>
-            <div> Had any game we developed provided this world </div>
-            <div class=""> with more fun? </div>
-            <div> Had any story, character or gameplay we made </div>
-            <div class=""> ever inspired you, players? I have to confess, </div>
-            <div class="text-leading">
-              {" "}
-              we ourselves know the answer neither.{" "}
-            </div>
-            <div> However, </div>
-            <div> we have faith in the new product, which arouses </div>
-            <div> our own feeling firstly, could also touch people </div>
-            <div> who share the same thoughts. </div>
-            <div>
-              <span class="text-exclusive">Black Myth: WuKong</span>,{" "}
-            </div>
-            <div>
-              {" "}
-              an <span class="text-red">action-adventure game </span>themed
-              around{" "}
-            </div>
-            <div>
-              {" "}
-              legendary Chinese novel{" "}
-              <span class="text-exclusive">Journey to the West</span>,{" "}
-            </div>
-            <div class="text-leading">
-              {" "}
-              is the newest answer given by Game Science.{" "}
-            </div>
-            <div class="introduction-info-en-end"> Hope you enjoy. </div>
-          </div>
+              Battle in the mighty city of Tenochtitlan, climb the snowy
+              mountain of Popocatepetl, travel through cities and ancient
+              temples, explore the deep jungle flatlands of the Yucatan
+              Peninsula, the mountains of Chiapas, the valleys of Central
+              Mexico, and much more. On each adventure through Mictlan, you will
+              see amazing places.{" "}
+            </p>
+          </motion.div>
         </div>
       )}
     </div>
