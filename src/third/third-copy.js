@@ -30,7 +30,10 @@ function Third() {
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <div style={{ height: '100vh' }} class="gs-slides-in gs-slides-show">
+        <div
+          style={{ height: '100vh', position: 'relative' }}
+          class="gs-slides-in gs-slides-show"
+        >
           <motion.div
             animate={inView ? 'visible' : 'hidden'}
             variants={variants}
@@ -46,10 +49,16 @@ function Third() {
                 visible: { opacity: 1, y: '-48%' },
                 hidden: {
                   opacity: 0,
+                  y: '-40%',
                 },
               }}
               class="home-2-img slides-animation-short"
-              style={{ backgroundImage: `url(${bg})` }}
+              style={{
+                backgroundImage: `url(${bg})`,
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+              }}
             ></motion.div>
             <motion.div
               animate={inView ? 'visible' : 'hidden'}

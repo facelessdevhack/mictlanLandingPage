@@ -1,24 +1,24 @@
-import "./App.css";
-import Home from "./Home/home";
-import ReactPageScroller from "react-page-scroller";
-import Second from "./secondSection/second";
-import Third from "./third/third";
-import Fourth from "./fourth/fourth";
-import Fifth from "./fifth/fifth";
-import { useMediaQuery } from "react-responsive";
-import Carousels from "./carousel/carousel";
-import Sixth from "./sixth/sixth";
-import Seven from "./seven/seven";
-import Eight from "./eight/eight";
-import Faq from "./faq/faq";
-import Contact from "./contact/contact";
-import LazyLoad from "react-lazyload";
+import './App.css';
+import Home from './Home/home';
+import ReactPageScroller from 'react-page-scroller';
+import Second from './secondSection/second';
+import Third from './third/third';
+import Fourth from './fourth/fourth';
+import Fifth from './fifth/fifth';
+import { useMediaQuery } from 'react-responsive';
+import Carousels from './carousel/carousel';
+import Sixth from './sixth/sixth';
+import Seven from './seven/seven';
+import Eight from './eight/eight';
+import Faq from './faq/faq';
+import Contact from './contact/contact';
+import LazyLoad from 'react-lazyload';
 
 function App() {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: '(min-width: 1224px)',
   });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
   return (
     <div className="App">
       {isDesktopOrLaptop && (
@@ -85,52 +85,52 @@ function App() {
           </div> */}
           <ReactPageScroller>
             <LazyLoad>
-              <div className="section-1">
+              <div className="section-1" style={{ zIndex: 90 }}>
                 <Home />
               </div>
             </LazyLoad>
             <LazyLoad>
-              <div className="section">
+              <div className="section" style={{ zIndex: 90 }}>
                 <Second />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 90 }}>
                 <Third />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 91 }}>
                 <Fourth />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 92 }}>
                 <Fifth />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 93 }}>
                 <Sixth />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 94 }}>
                 <Seven />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 95 }}>
                 <Eight />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 96 }}>
                 <Faq />
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section">
+              <div className="section" style={{ zIndex: 97 }}>
                 <Contact />
               </div>
             </LazyLoad>

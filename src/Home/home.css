@@ -14,22 +14,22 @@
     user-select: none;
 }
 .mc-home-bottom {
-    position: fixed;
-    z-index: 30;
+    position: absolute;
+    z-index: 10;
     color: #a5a5a5;
     font-weight: 600;
     font-size: .16rem;
-    margin-left: var(--main-margin);
     -webkit-user-select: none;
     user-select: none;
     bottom: 0.2rem;
     display: flex;
     gap: 0.3rem;
     align-items: baseline;
+    left: 0.5rem;
 }
 .mc-home-bottom-right {
     position: fixed;
-    z-index: 30;
+    z-index: 10;
     color: #a5a5a5;
     font-weight: 600;
     font-size: .16rem;
@@ -37,16 +37,17 @@
     -webkit-user-select: none;
     user-select: none;
     bottom: 0.05rem;
-    right: 0.2rem;
+    right: 0.5rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
 }
 .kickstarter p {
     font-family: 'Avenir';
+    font-size: .14rem;
 }
 .kickstarter img {
-    width: 2.6rem;
+    width: 1.6rem;
 }
 .steam {
     display: flex;
@@ -55,29 +56,37 @@
     align-items: center;
 }
 .steam img {
-    width: 0.3rem
+    width: 0.25rem
 }
 .steam button {
     background-color: white;
-    padding: 0.12rem 0.25rem;
+    padding: 0.08rem 0.15rem;
     border: none;
     border-radius: 0.1rem;
     font-family: "SF-Compact-Bold";
+    font-size: 0.15rem;
+}
+.steam button:hover {
+    transform: scale(0.9);
+}
+.meta {
+    position: relative;
+    bottom:10px;
 }
 .meta h4 {
     margin: 0;
     font-family: 'Lequire';
-    font-size: 0.4rem;
+    font-size: 0.25rem;
 }
 .meta p {
     font-family: "SF-Compact-Rounded-Light";
-    margin-top: -11px;
-    font-size: 0.12rem;
+    margin-top: -21px;
+    font-size: 0.1rem;
     letter-spacing: 4px;
 
 }
 .mc-home-bottom img:nth-of-type(1) {
-    width: 1.2rem;
+    width: 1rem;
 }
 .mc-home-bottom img:nth-of-type(2) {
     width: 1.2rem;
@@ -89,8 +98,8 @@
     width: 0.6rem;
 }
 .mictlan-home-nav {
-    position: fixed;
-    z-index: 30;
+    position: absolute;
+    z-index: 10;
     color: #a5a5a5;
     font-weight: 600;
     font-size: .16rem;
@@ -102,8 +111,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 92%;
     top: .29rem;
+    left: -0.4rem;
 }
 .top-bar {
     position: relative;
@@ -1034,7 +1044,7 @@ a:hover {
     border: none;
 }
 .mc-logo {
-    width: 1.5rem
+    width: 1.2rem
 }
 .topleft {
     display: flex;
@@ -1042,10 +1052,12 @@ a:hover {
     align-items: center;
     gap: 10px;
 }
+.topleft a:hover {
+    transform: scale(0.9);
+}
 .iconTop {
     filter: invert();
     width: 0.2rem;
-
 }
 .grop-from .form-body .form-controls input:focus {
     outline: none;

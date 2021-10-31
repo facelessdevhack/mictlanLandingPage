@@ -1,18 +1,19 @@
-import React from "react";
-import "./seven.css";
-import bg from "../assets/seven.png";
-import bgtwo from "../assets/bg-four-two.png";
-import mbBg from "../assets/mbBg-three.png";
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
-import { useMediaQuery } from "react-responsive";
-import one from "../assets/bg.mp4";
+import React from 'react';
+import './seven.css';
+import bg from '../assets/seven.png';
+import bgtwo from '../assets/bg-four-two.png';
+import mbBg from '../assets/mbBg-three.png';
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
+import one from '../assets/bg.mp4';
+import { Row, Col } from 'antd';
 
 function Seven() {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: '(min-width: 1224px)',
   });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
 
   const [ref, inView, entry] = useInView({
     /* Optional options */
@@ -31,71 +32,38 @@ function Seven() {
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <motion.div
-          animate={inView ? "visible" : "hidden"}
-          variants={variants}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          style={{ height: "100vh" }}
-          class="gs-slides-in gs-slides-show"
-        >
-          <div class="home-7" style={{ backgroundImage: `url(${bgtwo})` }}>
-            <div className="overlay"></div>
-            <div
-              class="home-7-img slides-animation-short"
-              style={{ backgroundImage: `url(${bg})` }}
-            ></div>
-            <div className="home-7-video-container">
-              <div className="home-7-video-wrapper">
-                <div className="home-7-video">
-                  <h1>GAMEPLAY</h1>
-                  <video
-                    className="home-7-video-inner"
-                    src={one}
-                    loop
-                    controls
-                    // style={{ width: "100%" }}
-                  />
-                </div>
-                <div className="home-7-video">
-                  <h1>CONCEPT</h1>
-                  <video
-                    className="home-7-video-inner"
-                    src={one}
-                    loop
-                    controls
-                    // style={{ width: "100%" }}
-                  />
-                </div>
-                <div className="home-7-video">
-                  <h1>characters</h1>
-                  <video
-                    className="home-7-video-inner"
-                    src={one}
-                    loop
-                    controls
-                    // style={{ width: "100%" }}
-                  />
-                </div>
-                <div className="home-7-video">
-                  <h1>VIDEOS</h1>
-                  <video
-                    className="home-7-video-inner"
-                    src={one}
-                    loop
-                    controls
-                    // style={{ width: "100%" }}
-                  />
-                </div>
-              </div>
+        <div style={{ width: '100vw', marginLeft: '20%' }}>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '5rem 5rem',
+              gap: '5%',
+            }}
+          >
+            <div style={{ margin: '0 auto', width: '100%' }}>
+              <h1>GAMEPLAY</h1>
+              <video src={one} loop controls style={{ width: '100%' }} />
+            </div>
+            <div style={{ margin: '0 auto', width: '100%' }}>
+              <h1>GAMEPLAY</h1>
+              <video src={one} loop controls style={{ width: '100%' }} />
+            </div>
+            <div style={{ margin: '0 auto', width: '100%' }}>
+              <h1>GAMEPLAY</h1>
+              <video src={one} loop controls style={{ width: '100%' }} />
+            </div>
+            <div style={{ margin: '0 auto', width: '100%' }}>
+              <h1>GAMEPLAY</h1>
+              <video src={one} loop controls style={{ width: '100%' }} />
             </div>
           </div>
-        </motion.div>
+        </div>
       )}
       {isTabletOrMobile && (
         <div class="gs-slides-in">
           <div class="home-10" style={{ backgroundImage: `url(${bgtwo})` }}>
             <motion.div
-              style={{ marginTop: "25%" }}
+              style={{ marginTop: '25%' }}
               class="introduction-info slides-animation-long en"
             >
               <div className="home-7-video-container">
