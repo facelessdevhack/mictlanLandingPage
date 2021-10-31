@@ -32,7 +32,7 @@ function Seven() {
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <div style={{ width: '100vw', marginLeft: '20%' }}>
+        <div style={{ maxWidth: '100vw', marginLeft: '20%' }}>
           <div
             style={{
               display: 'grid',
@@ -40,21 +40,49 @@ function Seven() {
               gap: '5%',
             }}
           >
-            <div style={{ margin: '0 auto', width: '100%' }}>
+            <div
+              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
+            >
               <h1>GAMEPLAY</h1>
-              <video src={one} loop controls style={{ width: '100%' }} />
+              <video
+                src={one}
+                loop
+                controls
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
+              />
             </div>
-            <div style={{ margin: '0 auto', width: '100%' }}>
+            <div
+              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
+            >
               <h1>GAMEPLAY</h1>
-              <video src={one} loop controls style={{ width: '100%' }} />
+              <video
+                src={one}
+                loop
+                controls
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
+              />
             </div>
-            <div style={{ margin: '0 auto', width: '100%' }}>
+            <div
+              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
+            >
               <h1>GAMEPLAY</h1>
-              <video src={one} loop controls style={{ width: '100%' }} />
+              <video
+                src={one}
+                loop
+                controls
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
+              />
             </div>
-            <div style={{ margin: '0 auto', width: '100%' }}>
+            <div
+              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
+            >
               <h1>GAMEPLAY</h1>
-              <video src={one} loop controls style={{ width: '100%' }} />
+              <video
+                src={one}
+                loop
+                controls
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
+              />
             </div>
           </div>
         </div>
