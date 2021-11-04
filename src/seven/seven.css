@@ -5,7 +5,7 @@
     background-position: 50%;
     position: relative;
 }
-.home-7 .home-7-img {
+.home-7-img {
     left: 28%;
     /* width: 30.7rem;
     height: 100%; */
@@ -14,8 +14,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50%;
-    position: relative;
-    top: 50%;
+    position: fixed;
+    top: 53%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 0;

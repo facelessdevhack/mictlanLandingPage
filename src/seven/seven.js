@@ -32,57 +32,104 @@ function Seven() {
   return (
     <div ref={ref}>
       {isDesktopOrLaptop && (
-        <div style={{ maxWidth: '100vw', marginLeft: '20%' }}>
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: '5rem 5rem',
-              gap: '5%',
-            }}
-          >
+        <div class="gs-slides-in">
+          <div class="home-7" style={{ backgroundImage: `url(${bgtwo})` }}>
             <div
-              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
-            >
-              <h1>GAMEPLAY</h1>
-              <video
-                src={one}
-                loop
-                controls
-                style={{ maxWidth: '100%', maxHeight: '100%' }}
-              />
-            </div>
+              class="home-7-img"
+              style={{
+                backgroundImage: `url(${bg})`,
+                position: 'absolute',
+                top: '53%',
+                zIndex: '0',
+              }}
+            />
             <div
-              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
+              style={{
+                maxWidth: '100vw',
+                marginLeft: '10%',
+                zIndex: '2',
+              }}
             >
-              <h1>GAMEPLAY</h1>
-              <video
-                src={one}
-                loop
-                controls
-                style={{ maxWidth: '100%', maxHeight: '100%' }}
-              />
-            </div>
-            <div
-              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
-            >
-              <h1>GAMEPLAY</h1>
-              <video
-                src={one}
-                loop
-                controls
-                style={{ maxWidth: '100%', maxHeight: '100%' }}
-              />
-            </div>
-            <div
-              style={{ margin: '0 auto', maxWidth: '100%', maxHeight: '100%' }}
-            >
-              <h1>GAMEPLAY</h1>
-              <video
-                src={one}
-                loop
-                controls
-                style={{ maxWidth: '100%', maxHeight: '100%' }}
-              />
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: '5rem 5rem',
+                  gap: '5% 28%',
+                }}
+              >
+                <div
+                  style={{
+                    margin: '0 auto',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    zIndex: '2',
+                  }}
+                >
+                  <h1 style={{ fontFamily: 'Afolkalips', fontSize: '0.6rem' }}>
+                    GAMEPLAY
+                  </h1>
+                  <video
+                    src={one}
+                    loop
+                    controls
+                    style={{ maxWidth: '100%', maxHeight: '100%' }}
+                  />
+                </div>
+                <div
+                  style={{
+                    margin: '0 auto',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    zIndex: '2',
+                  }}
+                >
+                  <h1 style={{ fontFamily: 'Afolkalips', fontSize: '0.6rem' }}>
+                    GAMEPLAY
+                  </h1>
+                  <video
+                    src={one}
+                    loop
+                    controls
+                    style={{ maxWidth: '100%', maxHeight: '100%' }}
+                  />
+                </div>
+                <div
+                  style={{
+                    margin: '0 auto',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    zIndex: '2',
+                  }}
+                >
+                  <h1 style={{ fontFamily: 'Afolkalips', fontSize: '0.6rem' }}>
+                    GAMEPLAY
+                  </h1>
+                  <video
+                    src={one}
+                    loop
+                    controls
+                    style={{ maxWidth: '100%', maxHeight: '100%' }}
+                  />
+                </div>
+                <div
+                  style={{
+                    margin: '0 auto',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    zIndex: '2',
+                  }}
+                >
+                  <h1 style={{ fontFamily: 'Afolkalips', fontSize: '0.6rem' }}>
+                    GAMEPLAY
+                  </h1>
+                  <video
+                    src={one}
+                    loop
+                    controls
+                    style={{ maxWidth: '100%', maxHeight: '100%' }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
