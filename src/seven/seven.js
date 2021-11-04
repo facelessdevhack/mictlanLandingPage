@@ -43,13 +43,7 @@ function Seven() {
                 zIndex: '0',
               }}
             />
-            <div
-              style={{
-                maxWidth: '100vw',
-                marginLeft: '10%',
-                zIndex: '2',
-              }}
-            >
+            <div className="video-grid">
               <div
                 style={{
                   display: 'grid',

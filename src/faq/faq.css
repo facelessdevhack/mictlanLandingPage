@@ -32,3 +32,17 @@
     font-family: 'SF-Compact-Medium';
     margin-top: 0;
 }
+@media screen and (max-width: 1000px) {
+    .faq-wrapper h1 {
+        font-size: 0.1rem;
+    }
+    .faq-wrapper h6 {
+        font-size: 0.1rem;
+    }
+    #accordion-title h3{
+        font-size: 0.1rem;
+    }
+    #accordian-item {
+        padding: unset
+    }
+}

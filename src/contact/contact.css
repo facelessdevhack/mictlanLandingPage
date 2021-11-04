@@ -124,3 +124,25 @@
     transform: rotate(
 45deg);
   }
+  @media (max-width: 1000px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+  }
+  .faq-wrapper {
+    padding-top: 15%;
+  }
+  .contact-left h1 {
+    font-size: 0.2rem;
+    text-align: center;
+  }
+  .contact-left p {
+    font-size: 0.12rem;
+    text-align: center;
+  }
+  .contact-left h3 {
+    font-size: 0.18rem;
+    text-align: center;
+  }
+}

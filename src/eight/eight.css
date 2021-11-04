@@ -203,11 +203,18 @@ home-8 .home-8-info.en {
     margin-bottom: 0.2rem;
     margin-top: 0.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .home-7 {
-        height: fit-content;
+        height: unset;
         background-position: top;
         font-family: Poppins;
+    }
+    .home-8 {
+        background-size: auto;
+        height: unset;
+    }
+    .home-8 .home-8-img {
+        object-fit: cover;
     }
     .introduction-info-en-title {
         color: #dfdad3;
@@ -245,5 +252,48 @@ home-8 .home-8-info.en {
         font-size: .12rem;
         letter-spacing: .0072rem;
     }
-
+    .press-kit-page {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 25%;
+        width: 100vw
+    }
+    .press-kit-page h1 {
+        text-align: center;
+    }
+    .press-kit-text {
+        text-align: center;
+        font-size: 0.1rem;
+    }
+    .press-kit-text-right {
+        text-align: left;
+        width: 70vw;
+        font-size: 0.1rem;
+        margin: 0 auto;
+    }
+    .press-kit-page button {
+        margin: 0.2rem auto;
+        position: relative;
+    }
+    .press-right {
+        width: 100%;
+    }
+    .press-right-img {
+        margin: 0 auto
+    }
+    .press-h4 img {
+        display: none;
+    }
+    .press-right-h4 img {
+        display: none;
+    }
+    .press-right-h4 h4 {
+        text-align: center;
+    }
+    .press-h4 h4 {
+        text-align: center;
+    }
+    .press-h4 {
+        display: block;
+    }
 }
