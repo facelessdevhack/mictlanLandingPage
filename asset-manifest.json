@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mictlanLandingPage/static/css/main.80bed3d0.chunk.css",
-    "main.js": "/mictlanLandingPage/static/js/main.541b4609.chunk.js",
-    "main.js.map": "/mictlanLandingPage/static/js/main.541b4609.chunk.js.map",
-    "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.f208d1ef.js",
-    "runtime-main.js.map": "/mictlanLandingPage/static/js/runtime-main.f208d1ef.js.map",
+    "main.css": "/mictlanLandingPage/static/css/main.ae6982e3.chunk.css",
+    "main.js": "/mictlanLandingPage/static/js/main.ade9f28d.chunk.js",
+    "main.js.map": "/mictlanLandingPage/static/js/main.ade9f28d.chunk.js.map",
+    "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.216f5181.js",
+    "runtime-main.js.map": "/mictlanLandingPage/static/js/runtime-main.216f5181.js.map",
     "static/css/2.4ce9e501.chunk.css": "/mictlanLandingPage/static/css/2.4ce9e501.chunk.css",
-    "static/js/2.bda8a0c0.chunk.js": "/mictlanLandingPage/static/js/2.bda8a0c0.chunk.js",
-    "static/js/2.bda8a0c0.chunk.js.map": "/mictlanLandingPage/static/js/2.bda8a0c0.chunk.js.map",
-    "static/js/3.53fedfdc.chunk.js": "/mictlanLandingPage/static/js/3.53fedfdc.chunk.js",
-    "static/js/3.53fedfdc.chunk.js.map": "/mictlanLandingPage/static/js/3.53fedfdc.chunk.js.map",
+    "static/js/2.766b73e1.chunk.js": "/mictlanLandingPage/static/js/2.766b73e1.chunk.js",
+    "static/js/2.766b73e1.chunk.js.map": "/mictlanLandingPage/static/js/2.766b73e1.chunk.js.map",
+    "static/js/3.a7e348c1.chunk.js": "/mictlanLandingPage/static/js/3.a7e348c1.chunk.js",
+    "static/js/3.a7e348c1.chunk.js.map": "/mictlanLandingPage/static/js/3.a7e348c1.chunk.js.map",
     "index.html": "/mictlanLandingPage/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/mictlanLandingPage/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.80bed3d0.chunk.css.map": "/mictlanLandingPage/static/css/main.80bed3d0.chunk.css.map",
-    "static/js/2.bda8a0c0.chunk.js.LICENSE.txt": "/mictlanLandingPage/static/js/2.bda8a0c0.chunk.js.LICENSE.txt",
+    "static/css/main.ae6982e3.chunk.css.map": "/mictlanLandingPage/static/css/main.ae6982e3.chunk.css.map",
+    "static/js/2.766b73e1.chunk.js.LICENSE.txt": "/mictlanLandingPage/static/js/2.766b73e1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mictlanLandingPage/static/media/itaki.4fdcfe6c.otf",
     "static/media/bg-faq.c7b9b304.png": "/mictlanLandingPage/static/media/bg-faq.c7b9b304.png",
     "static/media/bg-five.835c9230.png": "/mictlanLandingPage/static/media/bg-five.835c9230.png",
@@ -45,10 +45,10 @@
     "static/media/xbox.be1fa513.png": "/mictlanLandingPage/static/media/xbox.be1fa513.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f208d1ef.js",
+    "static/js/runtime-main.216f5181.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.bda8a0c0.chunk.js",
-    "static/css/main.80bed3d0.chunk.css",
-    "static/js/main.541b4609.chunk.js"
+    "static/js/2.766b73e1.chunk.js",
+    "static/css/main.ae6982e3.chunk.css",
+    "static/js/main.ade9f28d.chunk.js"
   ]
 }
