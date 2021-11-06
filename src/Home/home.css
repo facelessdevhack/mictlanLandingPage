@@ -68,6 +68,8 @@
 }
 .steam button:hover {
     transform: scale(0.9);
+    background-color: black;
+    color: white;
 }
 .meta {
     position: relative;

@@ -183,10 +183,11 @@ home-8 .home-8-info.en {
     font-size: 0.17rem;
 }
 .press-kit-text-right {
-    line-height: 2;
+    line-height: 1.5;
     text-align: left;
     font-family: 'SF-Compact-Regular';
     font-size: 0.17rem;
+    margin-top: 15px;
 }
 
 .press-right {

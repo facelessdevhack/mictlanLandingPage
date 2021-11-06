@@ -84,7 +84,7 @@ function Third() {
                 gods and wild mythological beast through the nine levels of
                 vertical hells; and in order to free your soul,
               </div>
-              <div>you will face the great Lord of Death: Mictlantecutli.</div>
+              <div>you will face the great Lord of Death: Mictlantecuhtli.</div>
             </motion.div>
           </motion.div>
         </div>
@@ -115,7 +115,7 @@ function Third() {
                 vertical hells; and in order to free your soul,
                 <br />
                 <br />
-                you will face the great Lord of Death: Mictlantecutli.{' '}
+                you will face the great Lord of Death: Mictlantecuhtli.{' '}
               </div>
               {/* <div className="introduction-info-en-preface4">
                   {" "}

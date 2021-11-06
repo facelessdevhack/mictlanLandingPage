@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import "./contact.css";
-import bg from "../assets/contact.png";
+import React, { Component } from 'react';
+import './contact.css';
+import bg from '../assets/contact.png';
 export class Contact extends Component {
   state = {
-    email: "",
-    findus: "",
-    reason: "",
-    name: "",
-    selectedOption: "",
+    email: '',
+    findus: '',
+    reason: '',
+    name: '',
+    message: '',
+    selectedOption: '',
   };
   onChange = (e) => {
     this.setState({
@@ -21,6 +22,7 @@ export class Contact extends Component {
   };
 
   render() {
+    const { email, findus, reason, name, message, selectedOption } = this.state;
     return (
       <div className="home-4" style={{ backgroundImage: `url(${bg})` }}>
         <div className="contact-wrapper">
@@ -29,10 +31,10 @@ export class Contact extends Component {
             <p>Do you have a question not found in our FAQ?</p>
             <div className="contact-details">
               <h3>Contact Us:</h3>
-              <p>Press: press@mictlanthegame.com</p>
-              <p>Jobs: jobs@mictlanthegame.com</p>
-              <p>Sales: sales@mictlanthegame.com</p>
-              <p>Genera: info@mictlanthegame.com</p>
+              <a href='mailto:press@mictlanthegame.com'>Press: press@mictlanthegame.com</a>
+              <a href='mailto:jobs@mictlanthegame.com'>Jobs: jobs@mictlanthegame.com</a>
+              <a href='mailto:sales@mictlanthegame.com'>Sales: sales@mictlanthegame.com</a>
+              <a href='mailto:info@mictlanthegame.com'>General: info@mictlanthegame.com</a>
             </div>
             <div className="address">
               <h3>Meta Studios Creative Agency K.K 株式会社</h3>
@@ -46,7 +48,18 @@ export class Contact extends Component {
             method="POST"
           > */}
           <form
-            action="https://formsubmit.co/facelessdevhack@gmail.com"
+            action = 
+            {selectedOption === 'press'
+              ? 'https://formsubmit.co/press@mictlanthegame.com'
+              : selectedOption === 'jobs'
+              ? 'https://formsubmit.co/jobs@mictlanthegame.com'
+              : selectedOption === 'sales' || 'NPC'
+              ? 'https://formsubmit.co/sales@mictlanthegame.com'
+              : selectedOption === 'investment'
+              ? 'https://formsubmit.co/investment@mictlanthegame.com'
+              : selectedOption === 'music'
+              ? 'https://formsubmit.co/sound@mictlanthegame.com'
+              : 'https://formsubmit.co/galarcon@mictlanthegame.com'}
             method="POST"
             className="contact-right"
           >
@@ -56,7 +69,7 @@ export class Contact extends Component {
               name="name"
               placeholder="Name"
               onChange={this.onChange}
-              value={this.state.name}
+              value={name}
             />
             <div className="contact-two">
               <input
@@ -64,22 +77,22 @@ export class Contact extends Component {
                 name="email"
                 placeholder="Email"
                 onChange={this.onChange}
-                value={this.state.email}
+                value={email}
               />
               <input
                 type="text"
                 name="findus"
                 placeholder="How you found us?"
                 onChange={this.onChange}
-                value={this.state.findus}
+                value={findus}
               />
             </div>
             <textarea
               rows={4}
-              name="findus"
+              name="message"
               placeholder="Your message"
               onChange={this.onChange}
-              value={this.state.findus}
+              value={message}
             />
             <div>
               <input
@@ -87,7 +100,7 @@ export class Contact extends Component {
                 name="reason"
                 placeholder="Reason"
                 onChange={this.onChange}
-                value={this.state.reason}
+                value={reason}
               />
               <input
                 type="hidden"
@@ -106,7 +119,7 @@ export class Contact extends Component {
                     type="radio"
                     name="Press"
                     value="press"
-                    checked={this.state.selectedOption === "press"}
+                    checked={selectedOption === 'press'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -117,7 +130,7 @@ export class Contact extends Component {
                     type="radio"
                     name="sales"
                     value="sales"
-                    checked={this.state.selectedOption === "sales"}
+                    checked={selectedOption === 'sales'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -128,7 +141,7 @@ export class Contact extends Component {
                     type="radio"
                     name="NPC"
                     value="NPC"
-                    checked={this.state.selectedOption === "NPC"}
+                    checked={selectedOption === 'NPC'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -139,7 +152,7 @@ export class Contact extends Component {
                     type="radio"
                     name="investment"
                     value="investment"
-                    checked={this.state.selectedOption === "investment"}
+                    checked={selectedOption === 'investment'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -151,7 +164,7 @@ export class Contact extends Component {
                     type="radio"
                     name="jobs"
                     value="jobs"
-                    checked={this.state.selectedOption === "jobs"}
+                    checked={selectedOption === 'jobs'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -162,7 +175,7 @@ export class Contact extends Component {
                     type="radio"
                     name="music"
                     value="music"
-                    checked={this.state.selectedOption === "music"}
+                    checked={selectedOption === 'music'}
                   />
                   <span class="checkmark"></span>
                 </label>
@@ -173,7 +186,7 @@ export class Contact extends Component {
                     type="radio"
                     name="sponsorship"
                     value="sponsorship"
-                    checked={this.state.selectedOption === "sponsorship"}
+                    checked={selectedOption === 'sponsorship'}
                   />
                   <span class="checkmark"></span>
                 </label>

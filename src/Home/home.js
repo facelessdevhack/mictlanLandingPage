@@ -40,22 +40,46 @@ function Home() {
                 <img src={logo} alt="logo" className="mc-logo" />
               </div>
               <div className="topleft">
-                <a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/mictlanthegame/"
+                  rel="noreferrer"
+                >
                   <img src={i} alt="" className="iconTop" />
                 </a>
-                <a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/mictlanthegame"
+                  rel="noreferrer"
+                >
                   <img src={f} alt="" className="iconTop" />
                 </a>
-                <a>
+                <a
+                  target="_blank"
+                  href="https://twitter.com/mictlanthegame"
+                  rel="noreferrer"
+                >
                   <img src={t} alt="" className="iconTop" />
                 </a>
-                <a>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/mictlanthegame"
+                  rel="noreferrer"
+                >
                   <img src={y} alt="" className="iconTop" />
                 </a>
-                <a>
+                <a
+                  target="_blank"
+                  href="https://discord.gg/VvMMrzYQjD"
+                  rel="noreferrer"
+                >
                   <img src={d} alt="" className="iconTop" />
                 </a>
-                <a>
+                <a
+                  target="_blank"
+                  href="https://patreon.com/mictlanthegame"
+                  rel="noreferrer"
+                >
                   <img src={p} alt="" className="iconTop" />
                 </a>
               </div>
@@ -230,9 +254,9 @@ function Home() {
                     <IconButton>
                       <ArrowRightAlt
                         style={{
-                          fontSize: '0.4rem',
+                          fontSize: '30px',
                           transition: '0.5s',
-                          marginBottom: '17px',
+                          marginBottom: '14px',
                         }}
                         onClick={() => {
                           setTransform('-60px');

@@ -115,7 +115,10 @@ function App() {
               </div>
             </LazyLoad>
             <LazyLoad offset={100}>
-              <div className="section" style={{ zIndex: 94 }}>
+              <div
+                className="section"
+                style={{ zIndex: 94, position: 'relative', bottom: '10px' }}
+              >
                 <Seven />
               </div>
             </LazyLoad>

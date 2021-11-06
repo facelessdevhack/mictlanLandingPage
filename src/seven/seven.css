@@ -100,7 +100,15 @@ home-7 .home-7-info.en {
     margin: 0 auto;
     padding-right: 0.8rem;
 }
-
+.button-play {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    border-width: 18px 0px 18px 34px;
+    background-color: transparent;
+    border-color: transparent transparent transparent #fff;
+  }
 .home-7-video-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -120,8 +128,48 @@ home-7 .home-7-info.en {
 }
 .video-grid {
         max-width: 100vw;
-        margin-left: 10%;
+        margin-left: 15%;
         z-index: 2;
+}
+.caro-img {
+    max-width: 100%;
+    height: 100vh;
+    object-fit: scale-down;
+    /* aspect-ratio: 16/9; */
+}
+.caro-img-dis {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+#player {
+    width: 125% !important
+
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+.home-7-video-img {
+    width: 85%;
+    margin: 0 auto;
+}
+#caro-mob {
+    width: 90%;
+    margin: 0 auto;
+}
+.video-grid-item {
+    padding-top: calc(100/ (16/9));
+    /* height: calc(100/ (16/9)) */
+    border: 1px solid #e6e6e6;
+    position: relative;
+}
+#gameplayCar {
+    /* width: 125%; */
+}
+#caro-pad {
+    padding: 1rem
 }
 @media only screen and (max-width: 1000px) {
     .video-grid {
@@ -132,6 +180,12 @@ home-7 .home-7-info.en {
         font-family: Poppins;
         background-size: cover;
 text-align: center;
+    }
+    .btn-faq{
+        position: fixed !important;
+    z-index: 2;
+    top: calc(50% - -30px) !important;
+    font-size: 0.4rem !important;
     }
     .home-7-video-wrapper {
         display: flex;

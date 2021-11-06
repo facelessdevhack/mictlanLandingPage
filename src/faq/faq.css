@@ -45,4 +45,7 @@
     #accordian-item {
         padding: unset
     }
+    .accordion-content {
+        font-size: 0.1rem
+    }
 }

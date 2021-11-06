@@ -127,7 +127,6 @@
   position: relative;
 }
 .section {
-  margin-top: 1px;
   height: fit-content;
   overflow: hidden;
 }

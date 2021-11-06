@@ -1,17 +1,17 @@
-import React from "react";
-import "./sixth.css";
-import bg from "../assets/sixthbg.png";
-import bgtwo from "../assets/sixth.png";
-import mbBg from "../assets/mbBg-four.png";
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
-import { useMediaQuery } from "react-responsive";
+import React from 'react';
+import './sixth.css';
+import bg from '../assets/sixthbg.png';
+import bgtwo from '../assets/sixth.png';
+import mbBg from '../assets/mbBg-four.png';
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
 
 function Sixth() {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: '(min-width: 1224px)',
   });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' });
 
   const [ref, inView, entry] = useInView({
     /* Optional options */
@@ -31,34 +31,34 @@ function Sixth() {
     <div ref={ref}>
       {isDesktopOrLaptop && (
         <motion.div
-          style={{ height: "100vh" }}
+          style={{ height: '100vh' }}
           class="gs-slides-in gs-slides-show"
         >
           <div class="home-6" style={{ backgroundImage: `url(${bg})` }}>
             <div className="overlay"></div>
             <motion.div
-              animate={inView ? "visible" : "hidden"}
+              animate={inView ? 'visible' : 'hidden'}
               variants={{
-                visible: { opacity: 1, y: "-50%" },
+                visible: { opacity: 1, y: '-50%' },
                 hidden: {
                   opacity: 0.1,
-                  y: "-45%",
+                  y: '-45%',
                 },
               }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
+              transition={{ duration: 0.6, ease: 'easeInOut' }}
               class="home-6-img slides-animation-short"
               style={{ backgroundImage: `url(${bgtwo})` }}
             ></motion.div>
             <motion.div
-              animate={inView ? "visible" : "hidden"}
+              animate={inView ? 'visible' : 'hidden'}
               variants={{
-                visible: { opacity: 1, y: "-50%" },
+                visible: { opacity: 1, y: '-50%' },
                 hidden: {
                   opacity: 0,
-                  y: "-40%",
+                  y: '-40%',
                 },
               }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
+              transition={{ duration: 0.5, ease: 'easeOut' }}
               class="home-6-info home-text home-text-line-height slides-animation-long en"
             >
               <div class="text-title-spacing">
@@ -66,27 +66,27 @@ function Sixth() {
                   A game where history and fantasy come
                 </div>
                 <div class="introduction-info-en-title">
-                  <span class="text-red-title">TOGETHER.</span>{" "}
+                  <span class="text-red-title">TOGETHER.</span>{' '}
                 </div>
               </div>
               <div className="text-avenir">
-                {" "}
+                {' '}
                 For the creation of the entire universe of Mictlan, our art and
-                concept team is advised by a group{" "}
+                concept team is advised by a group{' '}
               </div>
               <div className="text-avenir">
-                {" "}
+                {' '}
                 of specialists in history, society, clothing and traditions, in
-                order to faithfully represent the{" "}
+                order to faithfully represent the{' '}
               </div>
               <div className="text-avenir">
-                {" "}
+                {' '}
                 pre-Hispanic Mexico; but, also, our game will rely on fantastic,
-                mythological, and fictional{" "}
+                mythological, and fictional{' '}
               </div>
               <div className="text-avenir">
-                {" "}
-                elements that will make Mictlan a unique game.{" "}
+                {' '}
+                elements that will make Mictlan a unique game.{' '}
               </div>
             </motion.div>
           </div>
@@ -101,17 +101,17 @@ function Sixth() {
                   A game where history and fantasy come
                 </div>
                 <div class="introduction-info-en-title">
-                  <span class="text-red-title">TOGETHER.</span>{" "}
+                  <span class="text-red-title">TOGETHER.</span>{' '}
                 </div>
               </div>
               <div className="introduction-info-en-preface3">
-                {" "}
+                {' '}
                 For the creation of the entire universe of Mictlan, our art and
                 concept team is advised by a group of specialists in history,
                 society, clothing and traditions, in order to faithfully
                 represent the pre-Hispanic Mexico; but, also, our game will rely
                 on fantastic, mythological, and fictional elements that will
-                make Mictlan a unique game.{" "}
+                make Mictlan a unique game.{' '}
               </div>
             </motion.div>
           </div>

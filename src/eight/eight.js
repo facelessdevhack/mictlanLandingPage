@@ -76,7 +76,7 @@ function Eight() {
               <p className="press-kit-text-right">
                 Developer:
                 <br />
-                Meta Studios Creative Agency K.K 株式会社 Based in Tokyo, Japan{" "}
+                Meta Studios Creative Agency K.K 株式会社 <br />Based in Tokyo, Japan{" "}
               </p>
               <p className="press-kit-text-right">
                 Release:
