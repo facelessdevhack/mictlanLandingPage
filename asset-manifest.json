@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mictlanLandingPage/static/css/main.4890d04f.chunk.css",
-    "main.js": "/mictlanLandingPage/static/js/main.4ed46849.chunk.js",
-    "main.js.map": "/mictlanLandingPage/static/js/main.4ed46849.chunk.js.map",
+    "main.js": "/mictlanLandingPage/static/js/main.59e7324d.chunk.js",
+    "main.js.map": "/mictlanLandingPage/static/js/main.59e7324d.chunk.js.map",
     "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.ac56c592.js",
     "runtime-main.js.map": "/mictlanLandingPage/static/js/runtime-main.ac56c592.js.map",
     "static/css/2.4ce9e501.chunk.css": "/mictlanLandingPage/static/css/2.4ce9e501.chunk.css",
@@ -49,6 +49,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.5ee25810.chunk.js",
     "static/css/main.4890d04f.chunk.css",
-    "static/js/main.4ed46849.chunk.js"
+    "static/js/main.59e7324d.chunk.js"
   ]
 }
