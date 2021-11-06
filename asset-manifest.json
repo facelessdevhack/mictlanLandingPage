@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mictlanLandingPage/static/css/main.4890d04f.chunk.css",
+    "main.css": "/mictlanLandingPage/static/css/main.692fb769.chunk.css",
     "main.js": "/mictlanLandingPage/static/js/main.59e7324d.chunk.js",
     "main.js.map": "/mictlanLandingPage/static/js/main.59e7324d.chunk.js.map",
     "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.ac56c592.js",
@@ -12,7 +12,7 @@
     "static/js/3.9bde3058.chunk.js.map": "/mictlanLandingPage/static/js/3.9bde3058.chunk.js.map",
     "index.html": "/mictlanLandingPage/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/mictlanLandingPage/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.4890d04f.chunk.css.map": "/mictlanLandingPage/static/css/main.4890d04f.chunk.css.map",
+    "static/css/main.692fb769.chunk.css.map": "/mictlanLandingPage/static/css/main.692fb769.chunk.css.map",
     "static/js/2.5ee25810.chunk.js.LICENSE.txt": "/mictlanLandingPage/static/js/2.5ee25810.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mictlanLandingPage/static/media/itaki.4fdcfe6c.otf",
     "static/media/bg-faq.c7b9b304.png": "/mictlanLandingPage/static/media/bg-faq.c7b9b304.png",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.ac56c592.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.5ee25810.chunk.js",
-    "static/css/main.4890d04f.chunk.css",
+    "static/css/main.692fb769.chunk.css",
     "static/js/main.59e7324d.chunk.js"
   ]
 }
