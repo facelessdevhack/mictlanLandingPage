@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mictlanLandingPage/static/css/main.baf07de6.chunk.css",
-    "main.js": "/mictlanLandingPage/static/js/main.396aec9d.chunk.js",
-    "main.js.map": "/mictlanLandingPage/static/js/main.396aec9d.chunk.js.map",
+    "main.css": "/mictlanLandingPage/static/css/main.2cd34f48.chunk.css",
+    "main.js": "/mictlanLandingPage/static/js/main.bc1fbdbd.chunk.js",
+    "main.js.map": "/mictlanLandingPage/static/js/main.bc1fbdbd.chunk.js.map",
     "runtime-main.js": "/mictlanLandingPage/static/js/runtime-main.db53d15e.js",
     "runtime-main.js.map": "/mictlanLandingPage/static/js/runtime-main.db53d15e.js.map",
     "static/css/2.6b571618.chunk.css": "/mictlanLandingPage/static/css/2.6b571618.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.132deb0b.chunk.js.map": "/mictlanLandingPage/static/js/3.132deb0b.chunk.js.map",
     "index.html": "/mictlanLandingPage/index.html",
     "static/css/2.6b571618.chunk.css.map": "/mictlanLandingPage/static/css/2.6b571618.chunk.css.map",
-    "static/css/main.baf07de6.chunk.css.map": "/mictlanLandingPage/static/css/main.baf07de6.chunk.css.map",
+    "static/css/main.2cd34f48.chunk.css.map": "/mictlanLandingPage/static/css/main.2cd34f48.chunk.css.map",
     "static/js/2.f48800f2.chunk.js.LICENSE.txt": "/mictlanLandingPage/static/js/2.f48800f2.chunk.js.LICENSE.txt",
     "static/media/1.810f25de.png": "/mictlanLandingPage/static/media/1.810f25de.png",
     "static/media/10.167c7f2f.jpg": "/mictlanLandingPage/static/media/10.167c7f2f.jpg",
@@ -63,8 +63,9 @@
     "static/media/ff.dcf4f3ab.png": "/mictlanLandingPage/static/media/ff.dcf4f3ab.png",
     "static/media/i.edb90ecc.png": "/mictlanLandingPage/static/media/i.edb90ecc.png",
     "static/media/kickstarter.9963a566.png": "/mictlanLandingPage/static/media/kickstarter.9963a566.png",
-    "static/media/mbBg-five.abb9b10e.png": "/mictlanLandingPage/static/media/mbBg-five.abb9b10e.png",
+    "static/media/mbBg-five.2150b8d5.png": "/mictlanLandingPage/static/media/mbBg-five.2150b8d5.png",
     "static/media/mbBg-four.8535ec0b.png": "/mictlanLandingPage/static/media/mbBg-four.8535ec0b.png",
+    "static/media/mbBg-six.42295203.png": "/mictlanLandingPage/static/media/mbBg-six.42295203.png",
     "static/media/mbBg-three.544cbcc1.png": "/mictlanLandingPage/static/media/mbBg-three.544cbcc1.png",
     "static/media/mbBg-two.ea7d4871.png": "/mictlanLandingPage/static/media/mbBg-two.ea7d4871.png",
     "static/media/mbbg.6aaeca80.png": "/mictlanLandingPage/static/media/mbbg.6aaeca80.png",
@@ -82,7 +83,7 @@
     "static/js/runtime-main.db53d15e.js",
     "static/css/2.6b571618.chunk.css",
     "static/js/2.f48800f2.chunk.js",
-    "static/css/main.baf07de6.chunk.css",
-    "static/js/main.396aec9d.chunk.js"
+    "static/css/main.2cd34f48.chunk.css",
+    "static/js/main.bc1fbdbd.chunk.js"
   ]
 }
